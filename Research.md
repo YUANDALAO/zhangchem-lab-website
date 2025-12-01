@@ -19,24 +19,24 @@ permalink: /research/
 <div class="research-grid">
 
   <!-- Card for Organic Synthesis -->
-  <a href="{{ '/research/organic-synthesis/' | relative_url }}" class="research-card">
+  <div class="research-card">
     <h3>Organic Synthesis</h3>
     <p>Development of novel synthetic methodologies, with a focus on constructing complex cyclic and caged molecular scaffolds for drug discovery.</p>
     <span class="read-more-link">Learn More &rarr;</span>
-  </a>
+  </div>
 
   <!-- Card for Flavivirus Inhibitors -->
-  <a href="{{ '/research/flavivirus-inhibitors/' | relative_url }}" class="research-card">
+  <div class="research-card">
     <h3>Flavivirus Inhibitors</h3>
     <p>Design and synthesis of potent small-molecule inhibitors targeting key enzymes of flaviviruses like Dengue and Zika.</p>
     <span class="read-more-link">Learn More &rarr;</span>
-  </a>
+  </div>
 
   <!-- Card for AI for Drug Discovery -->
-  <a href="{{ '/research/ai-driven-discovery/' | relative_url }}" class="research-card">
+  <div class="research-card">
     <h3>AI for Drug Discovery</h3>
     <p>Integrating artificial intelligence and machine learning to accelerate the entire drug discovery pipeline, from hit identification to lead optimization.</p>
     <span class="read-more-link">Explore AI Topics &rarr;</span>
-  </a>
+  </div>
 
 </div>
