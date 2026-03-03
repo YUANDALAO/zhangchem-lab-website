@@ -1,2576 +1,2904 @@
 - ID: A001
   SMILES: CS(C)=O
   MW: 78.14
-  scale: 6.163
+  scale: 6.235
 - ID: A002
   SMILES: OC(CCCOC4=CC(NC(C(N2C1=C(C=CC(OC(F)(F)F)=C1)CC2)=O)C3=CC=C(Cl)C=C3)=CC(OC)=C4)=O
   MW: 578.97
-  scale: 0.54
+  scale: 0.547
 - ID: A003
   SMILES: OC(CCCOC4=CC(NC(C(N2C1=C(C=CC(OC(F)(F)F)=C1)CC2)=O)C3=CC=C(Cl)C=C3)=CC(OC)=C4)=O
   MW: 578.97
-  scale: 0.54
+  scale: 0.547
 - ID: A004
   SMILES: FC4=C(F)C=C(C3=C(Cl)C(CSC2=NC(CC1CCCCC1)=C(CC)C(=O)N2)=NN3)C=C4
   MW: 479.0
-  scale: 0.718
+  scale: 0.727
 - ID: A005
   SMILES: CC1=NC2=C(C(NCCCN(C)C)=C1)C=CC4=C2C=CC3=C(NCCCN(C)C)C=C(C)N=C34
   MW: 458.65
-  scale: 0.528
+  scale: 0.534
 - ID: B001
   SMILES: O=C(N[Se]1)C2=C1C=CC=C2
   MW: 198.08
-  scale: 2.84
+  scale: 2.874
 - ID: B002
   SMILES: O=C(N[Se]1)C2=C1C=C(Cl)C=C2
   MW: 232.53
-  scale: 2.174
+  scale: 2.199
 - ID: B003
   SMILES: O=C(N[Se]1)C2=C1C=CC(Br)=C2
   MW: 276.98
-  scale: 2.439
+  scale: 2.468
 - ID: B004
   SMILES: O=C1C2=C([Se]N1)C=CC(C(F)(F)F)=C2
   MW: 266.08
-  scale: 1.876
+  scale: 1.898
 - ID: B005
   SMILES: O=C(N(C)[Se]1)C2=C1C=CC=C2
   MW: 212.11
-  scale: 2.327
+  scale: 2.355
 - ID: B006
   SMILES: O=C(N(CC(F)(F)F)[Se]1)C2=C1C=CC=C2
   MW: 280.11
-  scale: 1.698
+  scale: 1.717
 - ID: B007
   SMILES: O=C(N(C1CCCCC1)[Se]2)C3=C2C=CC=C3
   MW: 280.23
-  scale: 1.526
+  scale: 1.544
 - ID: B008
   SMILES: O=C(N(CC=C)[Se]1)C2=C1C=CC=C2
   MW: 238.15
-  scale: 1.666
+  scale: 1.685
 - ID: B009
   SMILES: OCCN1C(C2=CC=CC=C2[Se]1)=O
   MW: 242.14
-  scale: 1.666
+  scale: 1.685
 - ID: B010
   SMILES: O=C1C2=C([Se]N1CCC=C)C=CC=C2
   MW: 252.17
-  scale: 1.472
+  scale: 1.49
 - ID: B011
   SMILES: O=C1N(CCN(C)C)[Se]C2=CC=CC=C12
   MW: 269.21
-  scale: 1.47
+  scale: 1.488
 - ID: B012
   SMILES: OC[C@H](N1C(C2=CC=CC=C2[Se]1)=O)C(OC)=O
   MW: 300.17
-  scale: 1.455
+  scale: 1.472
 - ID: B013
   SMILES: O=C1C2=C([Se]N1[C@@H](CSC)C(OC)=O)C=CC=C2
   MW: 330.27
-  scale: 1.481
+  scale: 1.498
 - ID: B014
   SMILES: O=C1N([C@@H](CC(O)=O)C2=CC=CC=C2)[Se]C3=CC=CC=C31
   MW: 346.24
-  scale: 1.407
+  scale: 1.424
 - ID: B015
   SMILES: N=S(C1=CC=CC=C1[Se]C(F)(F)F)(C2=CC=CC=C2)=O
   MW: 364.25
-  scale: 1.556
+  scale: 1.574
 - ID: B016
   SMILES: N=S(C1=CC(C)=CC=C1[Se]C(F)(F)F)(C2=CC(C)=CC=C2)=O
   MW: 392.3
-  scale: 1.526
+  scale: 1.544
 - ID: B017
   SMILES: N=S(C1=CC(OC)=CC=C1[Se]C(F)(F)F)(C2=CC(OC)=CC=C2)=O
   MW: 424.3
-  scale: 1.366
+  scale: 1.382
 - ID: B018
   SMILES: N=S(C1=CC(Cl)=CC=C1[Se]C(F)(F)F)(C2=CC(Cl)=CC=C2)=O
   MW: 433.14
-  scale: 1.526
+  scale: 1.544
 - ID: B019
   SMILES: N=S(C1=CC=C(C)C=C1[Se]C(F)(F)F)(C2=CC=C(C)C=C2)=O
   MW: 392.3
-  scale: 1.168
+  scale: 1.182
 - ID: B020
   SMILES: N=S(C2=CC1=C(C=CC=C1)C=C2[Se]C(F)(F)F)(C4=CC3=C(C=CC=C3)C=C4)=O
   MW: 464.37
-  scale: 0.949
+  scale: 0.96
 - ID: B021
   SMILES: N=S(C1=CC=CC=C1[Se]C(F)(F)F)(C)=O
   MW: 302.18
-  scale: 1.993
+  scale: 2.017
 - ID: B022
   SMILES: N=S(C1=CC=C(C)C=C1[Se]C(F)(F)F)(C)=O
   MW: 316.21
-  scale: 1.972
+  scale: 1.996
 - ID: B023
   SMILES: N=S(C1=CC=C(OC)C=C1[Se]C(F)(F)F)(C)=O
   MW: 332.2
-  scale: 1.717
+  scale: 1.737
 - ID: B024
   SMILES: N=S(C1=CC=C(Cl)C=C1[Se]C(F)(F)F)(C)=O
   MW: 336.62
-  scale: 1.972
+  scale: 1.996
 - ID: B025
   SMILES: N=S(C1=CC=C(OC)C=C1[Se]C(F)(F)F)(C2=CC=C(OC)C=C2)=O
   MW: 424.3
-  scale: 1.013
+  scale: 1.024
 - ID: B026
   SMILES: N=S(C1=CC=C(C(C)(C)C)C=C1[Se]C(F)(F)F)(C2=CC=C(C(C)(C)C)C=C2)=O
   MW: 476.47
-  scale: 0.871
+  scale: 0.881
 - ID: B027
   SMILES: N=S(C1=CC=C(Cl)C=C1[Se]C(F)(F)F)(C2=CC=C(Cl)C=C2)=O
   MW: 433.14
-  scale: 1.168
+  scale: 1.182
 - ID: B028
   SMILES: N=S(C1=CC=C(Br)C=C1[Se]C(F)(F)F)(C2=CC=C(Br)C=C2)=O
   MW: 522.04
-  scale: 1.168
+  scale: 1.182
 - ID: B029
   SMILES: N=S(C2=CC=C(C1=CC=CC=C1)C=C2[Se]C(F)(F)F)(C4=CC=C(C3=CC=CC=C3)C=C4)=O
   MW: 516.45
-  scale: 0.702
+  scale: 0.71
 - ID: B030
   SMILES: N=S(C1=CC=C(Br)C=C1[Se]C(F)(F)F)(C)=O
   MW: 381.08
-  scale: 1.972
+  scale: 1.996
 - ID: B031
   SMILES: N=S(C1=C(Cl)C=CC=C1[Se]C(F)(F)F)(C)=O
   MW: 336.62
-  scale: 1.809
+  scale: 1.831
 - ID: B032
   SMILES: N=S(C1=C(Br)C=CC=C1[Se]C(F)(F)F)(C)=O
   MW: 381.08
-  scale: 1.809
+  scale: 1.831
 - ID: B033
   SMILES: N=S(C2=CC1=C(C=CC=C1)C=C2[Se]C(F)(F)F)(C)=O
   MW: 352.24
-  scale: 1.6
+  scale: 1.618
 - ID: B034
   SMILES: N=S(C1=CC=CC=C1[Se]C(F)(F)F)(CC)=O
   MW: 316.21
-  scale: 1.966
+  scale: 1.989
 - ID: B035
   SMILES: N=S(C1=CC=CC=C1[Se]C(F)(F)F)(C2CC2)=O
   MW: 328.22
-  scale: 1.729
+  scale: 1.749
 - ID: B036
   SMILES: N=S(C1=CC=CC=C1[Se]C(F)(C(F)(F)F)F)(C2=CC=CC=C2)=O
   MW: 414.26
-  scale: 1.462
+  scale: 1.479
 - ID: B037
   SMILES: N=S(C1=CC(C)=CC=C1[Se]C(F)(C(F)(F)F)F)(C2=CC(C)=CC=C2)=O
   MW: 442.31
-  scale: 1.487
+  scale: 1.504
 - ID: B038
   SMILES: N=S(C1=CC(OC)=CC=C1[Se]C(F)(C(F)(F)F)F)(C2=CC(OC)=CC=C2)=O
   MW: 474.31
-  scale: 1.287
+  scale: 1.302
 - ID: B039
   SMILES: N=S(C1=CC=C(OC)C=C1[Se]C(F)(C(F)(F)F)F)(C2=CC=C(OC)C=C2)=O
   MW: 474.31
-  scale: 0.997
+  scale: 1.009
 - ID: B040
   SMILES: N=S(C1=CC=C(C(C)(C)C)C=C1[Se]C(F)(C(F)(F)F)F)(C2=CC=C(C(C)(C)C)C=C2)=O
   MW: 526.47
-  scale: 0.853
+  scale: 0.863
 - ID: B041
   SMILES: N=S(C1=CC=C(Cl)C=C1[Se]C(F)(C(F)(F)F)F)(C2=CC=C(Cl)C=C2)=O
   MW: 483.15
-  scale: 1.172
+  scale: 1.186
 - ID: B042
   SMILES: N=S(C1=CC=C(Br)C=C1[Se]C(F)(C(F)(F)F)F)(C2=CC=C(Br)C=C2)=O
   MW: 572.05
-  scale: 1.172
+  scale: 1.186
 - ID: B043
   SMILES: N=S(C2=CC1=C(C=CC=C1)C=C2[Se]C(F)(C(F)(F)F)F)(C4=CC3=C(C=CC=C3)C=C4)=O
   MW: 514.38
-  scale: 0.926
+  scale: 0.937
 - ID: B044
   SMILES: N=S(C1=CC=CC=C1[Se]C(F)(C(F)(F)F)F)(CC)=O
   MW: 366.21
-  scale: 1.887
+  scale: 1.909
 - ID: B045
   SMILES: N=S(C1=CC=CC=C1[Se]C(F)(C(F)(F)F)F)(C2CC2)=O
   MW: 378.22
-  scale: 1.763
+  scale: 1.783
 - ID: B046
   SMILES: N=S(C1=CC=C(Cl)C=C1[Se]C(F)(C(F)(C(F)(F)F)F)F)(C2=CC=C(Cl)C=C2)=O
   MW: 533.15
-  scale: 1.166
+  scale: 1.18
 - ID: B047
   SMILES: N=S(C1=CC=CC=C1[Se]C(F)(C(F)(C(F)(F)F)F)F)(C2CC2)=O
   MW: 428.23
-  scale: 1.627
+  scale: 1.647
 - ID: B048
   SMILES: N=S(C1=CC=CC=C1[Se]C3=CNC2=CC=C(C(F)(F)F)C=C23)(C4=CC=CC=C4)=O
   MW: 479.39
-  scale: 1.225
+  scale: 1.24
 - ID: B049
   SMILES: N=S(C1=CC=CC=C1[Se]C3=CNC2=CC=CC(F)=C23)(C4=CC=CC=C4)=O
   MW: 429.38
-  scale: 1.216
+  scale: 1.23
 - ID: B050
   SMILES: N=S(C1=CC=CC=C1[Se]C3=CNC2=CC(F)=C(F)C=C23)(C4=CC=CC=C4)=O
   MW: 447.37
-  scale: 1.113
+  scale: 1.126
 - ID: B051
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC(C#N)=CC=C34
   MW: 416.34
-  scale: 0.901
+  scale: 0.911
 - ID: B052
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=C(C(F)(F)F)C=C34
   MW: 459.33
-  scale: 1.06
+  scale: 1.072
 - ID: B053
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=C(OC)C=C34
   MW: 421.36
-  scale: 1.07
+  scale: 1.083
 - ID: B054
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=CC=C34
   MW: 391.33
-  scale: 1.07
+  scale: 1.083
 - ID: B055
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=C(C)C=C34
   MW: 405.36
-  scale: 1.063
+  scale: 1.076
 - ID: B056
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=C(F)C=C34
   MW: 409.32
-  scale: 1.063
+  scale: 1.076
 - ID: B057
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=C(Br)C=C34
   MW: 470.23
-  scale: 1.063
+  scale: 1.076
 - ID: B058
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=C(Cl)C=C34
   MW: 425.78
-  scale: 1.063
+  scale: 1.076
 - ID: B059
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=C(Br)C=CC=C34
   MW: 470.23
-  scale: 0.951
+  scale: 0.962
 - ID: B060
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=C(Cl)C=CC=C34
   MW: 425.78
-  scale: 0.951
+  scale: 0.962
 - ID: B061
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=C(F)C=CC=C34
   MW: 409.32
-  scale: 0.951
+  scale: 0.962
 - ID: B062
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=CC(C)=C34
   MW: 405.36
-  scale: 1.061
+  scale: 1.074
 - ID: B063
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC(C(O)=O)=CC=C34
   MW: 435.34
-  scale: 0.889
+  scale: 0.899
 - ID: B064
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=C(C(O)=O)C=CC=C34
   MW: 435.34
-  scale: 0.869
+  scale: 0.879
 - ID: B065
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=C(C)C=CC=C34
   MW: 405.36
-  scale: 0.951
+  scale: 0.962
 - ID: B066
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC(Br)=CC=C34
   MW: 470.23
-  scale: 0.997
+  scale: 1.009
 - ID: B067
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=C(OC)C=CC=C34
   MW: 421.36
-  scale: 0.876
+  scale: 0.887
 - ID: B068
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC(F)=C(F)C=C34
   MW: 427.31
-  scale: 0.985
+  scale: 0.996
 - ID: B069
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC(F)=CC=C34
   MW: 409.32
-  scale: 0.997
+  scale: 1.009
 - ID: B070
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=CC(Br)=C34
   MW: 470.23
-  scale: 1.061
+  scale: 1.074
 - ID: B071
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=C(C(OC)=O)C=C34
   MW: 449.37
-  scale: 1.06
+  scale: 1.073
 - ID: B072
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=CC(OC)=C34
   MW: 421.36
-  scale: 1.053
+  scale: 1.066
 - ID: B073
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=CC(Cl)=C34
   MW: 425.78
-  scale: 1.061
+  scale: 1.074
 - ID: B074
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC(Cl)=CC=C34
   MW: 425.78
-  scale: 0.997
+  scale: 1.009
 - ID: B075
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC(Cl)=C(Cl)C=C34
   MW: 460.22
-  scale: 0.985
+  scale: 0.996
 - ID: B076
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=C(OC(F)(F)F)C=C34
   MW: 475.33
-  scale: 0.957
+  scale: 0.968
 - ID: B077
   SMILES: O=S(C1=CC=CC=C1[Se]C3=CNC2=CC=C(OC(F)(F)F)C=C23)(C4=CC=CC=C4)=N
   MW: 495.38
-  scale: 1.047
+  scale: 1.059
 - ID: B078
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=CC(F)=C34
   MW: 409.32
-  scale: 1.061
+  scale: 1.074
 - ID: B079
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=C(C#N)C=C34
   MW: 416.34
-  scale: 1.067
+  scale: 1.079
 - ID: B080
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=CC=C(N(=O)=O)C=C34
   MW: 436.33
-  scale: 1.074
+  scale: 1.087
 - ID: B081
   SMILES: O=C(NC1=CC=CC=C1)C2=CC=CC=C2[Se]C4=CNC3=C(C(OC)=O)C=CC=C34
   MW: 449.37
-  scale: 0.788
+  scale: 0.797
 - ID: B101
   SMILES: O=C(N(C1=CC=CC=C1)[Se]2)C3=C2C=CC=C3
   MW: 274.18
-  scale: 1.526
+  scale: 1.544
 - ID: B102
   SMILES: O=C(N(C1=CC=C(F)C=C1)[Se]2)C3=C2C=CC=C3
   MW: 292.17
-  scale: 1.304
+  scale: 1.32
 - ID: B103
   SMILES: O=C(N(C1=CC=C(Cl)C=C1)[Se]2)C3=C2C=CC=C3
   MW: 308.63
-  scale: 1.304
+  scale: 1.32
 - ID: B104
   SMILES: O=C1C2=CC=CC=C2[Se]N1C3=CC=CC(O)=C3
   MW: 290.18
-  scale: 1.476
+  scale: 1.494
 - ID: B105
   SMILES: O=C1C2=CC=CC=C2[Se]N1C(C=C3)=CC=C3C(F)(F)F
   MW: 342.18
-  scale: 1.118
+  scale: 1.131
 - ID: B106
   SMILES: O=C1C2=CC=CC=C2[Se]N1C3=CC(C(F)(F)F)=CC=C3
   MW: 342.18
-  scale: 1.26
+  scale: 1.275
 - ID: B107
   SMILES: O=C1C2=CC=CC=C2[Se]N1C3=CC(C#N)=CC=C3
   MW: 299.19
-  scale: 1.296
+  scale: 1.311
 - ID: B108
   SMILES: O=C(N(C1=CC=CC=C1)[Se]2)C3=C2C=CC(C(F)(F)F)=C3
   MW: 342.18
-  scale: 1.139
+  scale: 1.152
 - ID: B109
   SMILES: ClC1=CC=C2C(N([Se]C2=C1)CC3=CC=CC=C3)=O
   MW: 322.65
-  scale: 1.342
+  scale: 1.358
 - ID: B110
   SMILES: O=C1N(CC2=CC=CC=C2)[Se]C3=CC([N+]([O-])=O)=CC=C31
   MW: 333.21
-  scale: 1.143
+  scale: 1.156
 - ID: B111
   SMILES: O=C1N([Se]C2=C1C=CC(Cl)=C2)C3=C(Cl)C=C(F)C=C3
   MW: 361.06
-  scale: 1.144
+  scale: 1.157
 - ID: B112
   SMILES: ClC1=CC2=C(C=C1)[Se]N(C2=O)C3=C(Cl)C=C(F)C=C3
   MW: 361.06
-  scale: 1.139
+  scale: 1.153
 - ID: B113
   SMILES: CC1=CC2=C(C=C1)[Se]N(C2=O)C3=CC=C(F)C=C3Cl
   MW: 340.64
-  scale: 1.143
+  scale: 1.157
 - ID: B114
   SMILES: O=C(N(C1=CC=CC(C(NC)=O)=C1)[Se]2)C3=C2C=CC(C(F)(F)F)=C3
   MW: 399.23
-  scale: 0.871
+  scale: 0.881
 - ID: B115
   SMILES: O=C(N(CC1=CC=CC=C1)[Se]2)C3=C2C=CC=C3
   MW: 288.21
-  scale: 1.429
+  scale: 1.446
 - ID: B116
   SMILES: O=C(N(CC1=CC(O)=CC=C1)[Se]2)C3=C2C=CC=C3
   MW: 304.21
-  scale: 1.242
+  scale: 1.256
 - ID: B117
   SMILES: O=C(N(CC1=CC=CC=C1)[Se]2)C3=C2C=CC(C)=C3
   MW: 302.24
-  scale: 1.232
+  scale: 1.246
 - ID: B118
   SMILES: O=C(N(CCC1=CC=C(O)C=C1)[Se]2)C3=C2C=CC=C3
   MW: 318.23
-  scale: 1.051
+  scale: 1.063
 - ID: B119
   SMILES: O=C(N(C1=NC=CC=C1)[Se]2)C3=C2C=CC=C3
   MW: 275.17
-  scale: 1.526
+  scale: 1.544
 - ID: B120
   SMILES: O=C(N(C1=CN=CC=C1)[Se]2)C3=C2C=CC=C3
   MW: 275.17
-  scale: 1.526
+  scale: 1.544
 - ID: B121
   SMILES: O=C(N(C1=NC=CC=C1Br)[Se]2)C3=C2C=CC=C3
   MW: 354.06
-  scale: 1.509
+  scale: 1.527
 - ID: B122
   SMILES: O=C(N(CC1=NC=CC=C1)[Se]2)C3=C2C=CC=C3
   MW: 289.2
-  scale: 1.429
+  scale: 1.446
 - ID: B123
   SMILES: O=C(N(C1=NN=CS1)[Se]2)C3=C2C=CC=C3
   MW: 282.19
-  scale: 1.66
+  scale: 1.679
 - ID: B124
   SMILES: O=C(N(C1=NN=C(C)S1)[Se]2)C3=C2C=CC=C3
   MW: 296.21
-  scale: 1.427
+  scale: 1.444
 - ID: B125
   SMILES: O=C(N(C1=NNC(C)=C1)[Se]2)C3=C2C=CC=C3
   MW: 278.17
-  scale: 1.427
+  scale: 1.444
 - ID: B126
   SMILES: O=C(N(C1=NNC2=C1C=CC=C2)[Se]3)C4=C3C=CC=C4
   MW: 314.21
-  scale: 1.369
+  scale: 1.385
 - ID: B127
   SMILES: O=C(N(C1=CC=C(OC2=CC=NC(C(NC)=O)=C2)C=C1)[Se]3)C4=C3C=CC=C4
   MW: 424.32
-  scale: 0.719
+  scale: 0.727
 - ID: B128
   SMILES: O=C(N(C1=CC=C(C(OCCN(CC)CC)=O)C=C1)[Se]2)C3=C2C=CC=C3
   MW: 417.37
-  scale: 0.728
+  scale: 0.736
 - ID: B129
   SMILES: O=C([C@@H](N1C(C2=CC=CC=C2[Se]1)=O)CC3=CC=C(O)C=C3)OC
   MW: 376.27
-  scale: 1.018
+  scale: 1.03
 - ID: B130
   SMILES: O=C([C@H](CC1=CNC2=C1C=CC=C2)N3C(C4=CC=CC=C4[Se]3)=O)OC
   MW: 399.31
-  scale: 1.263
+  scale: 1.278
 - ID: B131
   SMILES: O=C1C2=CC=CC=C2[Se]N1C3=NC=NC4=C3N=CN4[C@@H]5O[C@H](COC(C)=O)[C@@H](OC(C)=O)[C@H]5OC(C)=O
   MW: 574.41
-  scale: 0.654
+  scale: 0.662
 - ID: B132
   SMILES: O=C1C2=C([Se]N1C3=CC4=C(NC=C4)C=C3)C=CC=C2
   MW: 313.22
-  scale: 1.243
+  scale: 1.258
 - ID: B133
   SMILES: O=C1N(C2=CC=C(OC)C=C2)[Se]C3=CC=CC=C31
   MW: 304.21
-  scale: 1.205
+  scale: 1.219
 - ID: B134
   SMILES: O=C1C2=C([Se]N1CC(N[C@H](C(OC)=O)CC(C)C)=O)C=CC=C2
   MW: 383.31
-  scale: 0.981
+  scale: 0.992
 - ID: B135
   SMILES: O=C1C2=C([Se]N1)C=CC(OC)=C2
   MW: 228.11
-  scale: 1.978
+  scale: 2.002
 - ID: B136
   SMILES: O=C1N(C2=CC=CC3=C2N=CC=C3)[Se]C4=CC(C(OC)=O)=CC=C41
   MW: 383.27
-  scale: 1.001
+  scale: 1.012
 - ID: B137
   SMILES: O=C1N(C2=NNC=C2)[Se]C3=C1C=CC=C3
   MW: 264.15
-  scale: 1.66
+  scale: 1.679
 - ID: B138
   SMILES: O=C1N(C2=NN(C)C=C2)[Se]C3=C1C=CC=C3
   MW: 278.17
-  scale: 1.427
+  scale: 1.444
 - ID: B139
   SMILES: O=C1C2=C([Se]N1C3=CNN=C3)C=CC=C2
   MW: 264.15
-  scale: 1.66
+  scale: 1.679
 - ID: B140
   SMILES: O=C1C2=C([Se]N1C3=CN(C)N=C3)C=CC=C2
   MW: 278.17
-  scale: 1.426
+  scale: 1.443
 - ID: B141
   SMILES: O=C1C2=C([Se]N1C3CCN(C)CC3)C=CC=C2
   MW: 295.24
-  scale: 1.304
+  scale: 1.32
 - ID: B142
   SMILES: O=C(N1C2=NC=CO2)C3=C([Se]1)C=CC=C3
   MW: 265.13
-  scale: 1.66
+  scale: 1.679
 - ID: B143
   SMILES: O=C(N1C2=NN=C(CC)S2)C3=C([Se]1)C=CC=C3
   MW: 310.24
-  scale: 1.391
+  scale: 1.407
 - ID: B144
   SMILES: O=C(N1C2=NN=C(C(C)C)S2)C3=C([Se]1)C=CC=C3
   MW: 324.27
-  scale: 1.234
+  scale: 1.249
 - ID: B145
   SMILES: O=C(N1C2=NN=C(CCC)S2)C3=C([Se]1)C=CC=C3
   MW: 324.27
-  scale: 1.198
+  scale: 1.212
 - ID: B146
   SMILES: O=C(N1C2=NN=C(C3CCCC3)S2)C4=C([Se]1)C=CC=C4
   MW: 350.3
-  scale: 1.1
+  scale: 1.113
 - ID: B147
   SMILES: O=C1N(C2=NN=C(C(C)(C)C)S2)[Se]C3=C1C=CC=C3
   MW: 338.29
-  scale: 1.213
+  scale: 1.227
 - ID: B148
   SMILES: O=C(N1C2=NN=C(C(F)(F)F)S2)C3=C([Se]1)C=CC=C3
   MW: 350.18
-  scale: 1.217
+  scale: 1.231
 - ID: B149
   SMILES: O=C(N1C2=NN=C(C3CCC(F)(F)CC3)S2)C4=C([Se]1)C=CC=C4
   MW: 400.31
-  scale: 0.938
+  scale: 0.949
 - ID: B150
   SMILES: O=C1C2=C([Se]N1C3=C(Cl)C=C(C(F)(F)F)C=N3)C=CC=C2
   MW: 377.61
-  scale: 1.109
+  scale: 1.122
 - ID: B151
   SMILES: O=C1N(C2=CC(C(F)(F)F)=C(CN3CCN(C)CC3)C=C2)[Se]C4=CC=CC=C14
   MW: 454.35
-  scale: 0.873
+  scale: 0.883
 - ID: B152
   SMILES: O=C([C@@H](NC([C@H](N2C(=O)C1=C(C=CC=C1)[Se]2)CC(C)C)=O)CC3=CC=C(O)C=C3)OC
   MW: 489.43
-  scale: 0.779
+  scale: 0.788
 - ID: B153
   SMILES: O=C1N([C@@H](CC2=CC=CC=C2)C(N[C@@H](CC3=CNC4=C3C=CC=C4)C(OC)=O)=O)[Se]C5=CC=CC=C51
   MW: 546.49
-  scale: 0.721
+  scale: 0.729
 - ID: B154
   SMILES: O=C1N(C2=CC=C(CC(O)=O)C=C2)[Se]C3=CC=CC=C31
   MW: 332.22
-  scale: 1.044
+  scale: 1.057
 - ID: B155
   SMILES: O=C1N(C2=CC(OC)=CC(C(O)=O)=C2)[Se]C3=CC=CC=C31
   MW: 348.22
-  scale: 1.23
+  scale: 1.245
 - ID: B156
   SMILES: O=C1N(CCN(CC)CC)[Se]C2=CC=CC=C21
   MW: 297.26
-  scale: 1.257
+  scale: 1.271
 - ID: B157
   SMILES: O=C1N(CCN2CCOCC2)[Se]C3=CC=CC=C31
   MW: 311.24
-  scale: 1.192
+  scale: 1.206
 - ID: B158
   SMILES: CCN(CC)CCCN([Se]C1=CC=CC=C21)C2=O
   MW: 311.29
-  scale: 1.125
+  scale: 1.139
 - ID: B159
   SMILES: O=C(N1C2=CC=CC=C2)C3=C([Se]1)C=CC(Br)=C3
   MW: 353.08
-  scale: 1.322
+  scale: 1.338
 - ID: B160
   SMILES: O=C1C2=CC=CC=C2[Se]N1C(C=C3)=CC=C3CNC(OC(C)(C)C)=O
   MW: 403.34
-  scale: 0.773
+  scale: 0.782
 - ID: B161
   SMILES: O=C1C2=CC=CC=C2[Se]N1CC3(CCCCC3)CC(O)=O
   MW: 352.29
-  scale: 1.32
+  scale: 1.335
 - ID: B162
   SMILES: O=C1N([C@@H](C(C)C)C(N[C@@H](CC2=CNC3=C2C=CC=C3)C(OC)=O)=O)[Se]C4=CC=CC=C41
   MW: 498.44
-  scale: 0.745
+  scale: 0.753
 - ID: B163
   SMILES: O=C1C2=CC=CC=C2[Se]N1CCNC(OC(C)(C)C)=O
   MW: 341.27
-  scale: 1.009
+  scale: 1.021
 - ID: B164
   SMILES: O=C(N1C2=C(C)C=C(C(O)=O)C=C2)C3=C([Se]1)C=CC=C3
   MW: 332.22
-  scale: 1.189
+  scale: 1.203
 - ID: B165
   SMILES: O=C(N(CCOCCOCCOCCOCCOCCN=[N+]=[N-])[Se]1)C2=C1C=CC=C2
   MW: 487.42
-  scale: 0.417
+  scale: 0.421
 - ID: B166
   SMILES: O=C(N(C1=C(C)ON=C1C)[Se]2)C3=C2C=CC=C3
   MW: 293.18
-  scale: 1.633
+  scale: 1.652
 - ID: B167
   SMILES: O=C(N(C1=NN(C(C)C)C=C1)[Se]2)C3=C2C=CC=C3
   MW: 306.23
-  scale: 1.234
+  scale: 1.248
 - ID: B168
   SMILES: O=C(N(CC[C@@H](C(O)=O)NC(OCC1C(C=CC=C2)=C2C3=C1C=CC=C3)=O)[Se]4)C5=C4C=CC=C5
   MW: 521.43
-  scale: 0.642
+  scale: 0.649
 - ID: B169
   SMILES: OC([C@@H](NC(OCC1C(C=CC=C2)=C2C3=C1C=CC=C3)=O)CCCCN4[Se]C(C=CC=C5)=C5C4=O)=O
   MW: 549.49
-  scale: 0.557
+  scale: 0.564
 - ID: B170
   SMILES: O=C(N(C1=NN(C2CC(F)(F)C2)C=C1)[Se]3)C4=C3C=CC=C4
   MW: 354.22
-  scale: 1.015
+  scale: 1.027
 - ID: B171
   SMILES: O=C1C2=CC=C(C(OC)=O)C=C2[Se]N1C3=C4C(C=CC=N4)=CC=C3
   MW: 383.27
-  scale: 0.965
+  scale: 0.976
 - ID: B172
   SMILES: O=C(N([C@@H]1CCNC1)[Se]2)C3=C2C=CC=C3.Cl
   MW: 303.65
-  scale: 1.646
+  scale: 1.665
 - ID: C001
   SMILES: O=C(C(C1=CC=CC=C1)NC2=CC=CC=C2)C3=CC=C(C)C=C3
   MW: 301.39
-  scale: 1.238
+  scale: 1.252
 - ID: C002
   SMILES: FC3=CC=C(C(C(C1=CC=CC=C1)NC2=CC=CC=C2)=O)C=C3
   MW: 305.35
-  scale: 1.287
+  scale: 1.303
 - ID: C003
   SMILES: O=C(C(C1=CC=CC=C1)NC2=CC=CC=C2)C3=CC(OC)=C(OC)C(OC)=C3
   MW: 377.44
-  scale: 1.094
+  scale: 1.107
 - ID: C004
   SMILES: O=C(C(C1=CC=CC=C1)NC2=CC=CC=C2)C4=CC3=C(C=CC=C3)S4
   MW: 343.45
-  scale: 1.158
+  scale: 1.172
 - ID: C005
   SMILES: O=C(C(C1=CC=CC=C1)NC2=CC=CC=C2)C4=CC=C(C3=NC=CC=N3)C=C4
   MW: 365.44
-  scale: 0.91
+  scale: 0.92
 - ID: C006
   SMILES: O=C(C(C1=CC=CC=C1)NC2=CC=CC=C2)C3=CC(F)=C(Cl)C=C3
   MW: 339.8
-  scale: 1.199
+  scale: 1.213
 - ID: C007
   SMILES: O=C(C(C1=CC=CC=C1)NC2=CC=CC=C2)C3=CC=C(Br)C=C3
   MW: 366.26
-  scale: 1.238
+  scale: 1.252
 - ID: C008
   SMILES: O=C(C(C1=CC=CC=C1)NC2=CC=CC=C2)C3=CC=CC(OC)=C3
   MW: 317.39
-  scale: 1.227
+  scale: 1.242
 - ID: C009
   SMILES: O=C(C(C1=CC=CC=C1)NC2=CC=CC=C2)C3=CC=C(C(OC)=O)C=C3
   MW: 345.4
-  scale: 0.982
+  scale: 0.994
 - ID: C010
   SMILES: O=C(C(C1=CC=CC=C1)C2=C3C(=NC=N2)N(C(C)C)C=N3)C5=CC4=C(F)C=CC=C4N5
   MW: 413.46
-  scale: 0.91
+  scale: 0.921
 - ID: C011
   SMILES: O=C(NC1=NOC(C)=C1)C(N3C2=C(C=CC=C2)CCC3)C4=CC=CC=C4
   MW: 347.42
-  scale: 1.28
+  scale: 1.295
 - ID: C012
   SMILES: O=C(NC1=CC=CC=C1)C(N3C2=C(C=CC=C2)CCC3)C4=CC=CC=C4
   MW: 342.44
-  scale: 1.262
+  scale: 1.277
 - ID: C013
   SMILES: O=C(NC1=CC(S(=O)(C)=O)=CC(OC)=C1)C(N3C2=C(C=CC=C2)CCC3)C4=CC=CC=C4
   MW: 450.56
-  scale: 1.003
+  scale: 1.014
 - ID: C014
   SMILES: O=C(NC1=CC=CC=C1C)C(N3C2=C(C=CC=C2)CCC3)C4=CC=CC=C4
   MW: 356.47
-  scale: 1.25
+  scale: 1.264
 - ID: C015
   SMILES: O=C(N1CCC2=C1C=CC=C2)C(N4C3=C(C=CC=C3)CCC4)C5=CC=CC=C5
   MW: 368.48
-  scale: 1.23
+  scale: 1.244
 - ID: C016
   SMILES: O=C(NC1=CC(OC)=C(OC)C=C1)C(N3C2=C(C=CC=C2)CCC3)C4=CC=CC=C4
   MW: 402.49
-  scale: 0.99
+  scale: 1.002
 - ID: C017
   SMILES: O=C(NCC1=CN=CC=C1)C(N3C2=C(C=CC=C2)CCC3)C4=CC=CC=C4
   MW: 357.46
-  scale: 1.071
+  scale: 1.084
 - ID: C018
   SMILES: O=C(NC1=CC(C(N)=O)=CC=C1)C(N3C2=C(C=CC=C2)CCC3)C4=CC=CC=C4
   MW: 385.47
-  scale: 1.141
+  scale: 1.155
 - ID: C019
   SMILES: O=C(NC1=CC(S(=O)(C)=O)=CC(OC)=C1)C(N3C2=C(C=CC=C2)CC3)C4=CC=CC=C4
   MW: 436.53
-  scale: 1.033
+  scale: 1.045
 - ID: C020
   SMILES: O=C(NC1=CC(OCCCC(OC(C)(C)C)=O)=CC(OC)=C1)C(N2C(C=CC=C3)=C3CCC2)C4=CC=CC=C4
   MW: 530.67
-  scale: 0.614
+  scale: 0.622
 - ID: C021
   SMILES: O=C(NC1=CC(OCCCC(O)=O)=CC(OC)=C1)C(N2C(C=CC=C3)=C3CCC2)C4=CC=CC=C4
   MW: 474.56
-  scale: 0.739
+  scale: 0.747
 - ID: C022
   SMILES: O=C(N1[C@H]2CN(C3=NC(C)=CC(C)=N3)C[C@@H]1C2)C4=C(C5=CC=CS5)C=CC=C4
   MW: 390.51
-  scale: 1.367
+  scale: 1.383
 - ID: C023
   SMILES: O=C(N1[C@H]2CN(C3=NC(C)=CC(C)=N3)C[C@@H]1[C@@H]2F)C4=C(C5=CC=CS5)C=CC=C4
   MW: 408.5
-  scale: 1.001
+  scale: 1.013
 - ID: C024
   SMILES: O=C(N1[C@H]2CN(C3=NC(C)=CC(C)=N3)C[C@@H]1[C@H]2C)C4=C(C5=CC=CS5)C=CC=C4
   MW: 404.54
-  scale: 1.001
+  scale: 1.013
 - ID: D001
   SMILES: O=C(C1=CC=CC=C1)C(CNS(C2=C(F)C(F)=C(F)C(F)=C2F)(=O)=O)C3=CC(C(F)(F)F)=CC=C3
   MW: 523.4
-  scale: 0.974
+  scale: 0.986
 - ID: D002
   SMILES: O=C(C1=CC=CC=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC(C(F)(F)F)=CC=C3
   MW: 447.48
-  scale: 0.997
+  scale: 1.008
 - ID: D003
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=C(C)C=C3
   MW: 407.54
-  scale: 1.026
+  scale: 1.038
 - ID: D004
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=C(OC)C=C2)(=O)=O)C3=CC=C(C)C=C3
   MW: 423.53
-  scale: 0.96
+  scale: 0.971
 - ID: D005
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=C(F)C=C2)(=O)=O)C3=CC=C(C)C=C3
   MW: 411.5
-  scale: 1.026
+  scale: 1.038
 - ID: D006
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=C(Cl)C=C2)(=O)=O)C3=CC=C(C)C=C3
   MW: 427.95
-  scale: 1.026
+  scale: 1.038
 - ID: D007
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=C(Br)C=C2)(=O)=O)C3=CC=C(C)C=C3
   MW: 472.4
-  scale: 1.026
+  scale: 1.038
 - ID: D008
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=CC(Br)=C2)(=O)=O)C3=CC=C(C)C=C3
   MW: 472.4
-  scale: 1.018
+  scale: 1.03
 - ID: D009
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=CC=C2Br)(=O)=O)C3=CC=C(C)C=C3
   MW: 472.4
-  scale: 1.023
+  scale: 1.035
 - ID: D010
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=C(C(F)(F)F)C=C2)(=O)=O)C3=CC=C(C)C=C3
   MW: 461.51
-  scale: 0.903
+  scale: 0.913
 - ID: D011
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=C(C#N)C=C2)(=O)=O)C3=CC=C(C)C=C3
   MW: 418.52
-  scale: 0.913
+  scale: 0.924
 - ID: D012
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=C(F)C(F)=C(F)C(F)=C2F)(=O)=O)C3=CC=C(C)C=C3
   MW: 483.46
-  scale: 1.008
+  scale: 1.02
 - ID: D013
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=CS2)(=O)=O)C3=CC=C(C)C=C3
   MW: 399.54
-  scale: 1.139
+  scale: 1.153
 - ID: D014
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CC=C(C)C=N2)(=O)=O)C3=CC=C(C)C=C3
   MW: 408.52
-  scale: 1.026
+  scale: 1.038
 - ID: D015
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C2=CN=CC=C2Cl)(=O)=O)C3=CC=C(C)C=C3
   MW: 428.94
-  scale: 1.023
+  scale: 1.035
 - ID: D016
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(CC2=CC=CC=C2)(=O)=O)C3=CC=C(C)C=C3
   MW: 407.54
-  scale: 0.99
+  scale: 1.002
 - ID: D017
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(OCC(Cl)(Cl)Cl)(=O)=O)C2=CC=C(C)C=C2
   MW: 464.8
-  scale: 0.999
+  scale: 1.011
 - ID: D018
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(OC[C@@]34OC[C@@H]2[C@@H](OC(C)(C)O2)[C@@H]3OC(C)(C)O4)(=O)=O)C5=CC=C(C)C=C5
   MW: 575.68
-  scale: 0.6
+  scale: 0.607
 - ID: D019
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C4=CC=C(C2=C(C)ON=C2C3=CC=CC=C3)C=C4)(=O)=O)C5=CC=C(C)C=C5
   MW: 550.68
-  scale: 0.78
+  scale: 0.79
 - ID: D020
   SMILES: O=C(C1=CC=C(C)C=C1)C(CNS(C4=CC=C(N2N=C(C(F)(F)F)C=C2C3=CC=C(C)C=C3)C=C4)(=O)=O)C5=CC=C(C)C=C5
   MW: 617.69
-  scale: 0.66
+  scale: 0.668
 - ID: D021
   SMILES: O=C(C1=CC=CC=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=CC=C3
   MW: 379.48
-  scale: 1.068
+  scale: 1.08
 - ID: D022
   SMILES: O=C(C1=CC=C(F)C=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=C(F)C=C3
   MW: 415.46
-  scale: 1.026
+  scale: 1.038
 - ID: D023
   SMILES: O=C(C1=CC=C(Cl)C=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=C(Cl)C=C3
   MW: 448.37
-  scale: 1.026
+  scale: 1.038
 - ID: D024
   SMILES: O=C(C1=CC=C(Br)C=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=C(Br)C=C3
   MW: 537.27
-  scale: 1.026
+  scale: 1.038
 - ID: D025
   SMILES: O=C(C1=CC=CC(C)=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=CC(C)=C3
   MW: 407.54
-  scale: 0.915
+  scale: 0.926
 - ID: D026
   SMILES: O=C(C1=C(C)C=CC=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=CC=C3C
   MW: 407.54
-  scale: 0.997
+  scale: 1.009
 - ID: D027
   SMILES: O=C(C1=CC(C(F)(F)F)=CC=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC(C(F)(F)F)=CC=C3
   MW: 515.48
-  scale: 0.9
+  scale: 0.91
 - ID: D028
   SMILES: O=C(C1=CC=C(Br)C=C1)C(CNS(C4=CC=C(C2=C(C)ON=C2C3=CC=CC=C3)C=C4)(=O)=O)C5=CC=C(Br)C=C5
   MW: 680.42
-  scale: 0.78
+  scale: 0.79
 - ID: D029
   SMILES: O=C(C1=CC=C(Br)C=C1)C(CNS(C4=CC=C(N2N=C(C(F)(F)F)C=C2C3=CC=C(C)C=C3)C=C4)(=O)=O)C5=CC=C(Br)C=C5
   MW: 747.43
-  scale: 0.66
+  scale: 0.668
 - ID: D030
   SMILES: O=C(C1=CC=C(C)C=C1)C(C2=CC=C(C)C=C2)(C)CNS(C3=CC=C(C)C=C3)(=O)=O
   MW: 421.56
-  scale: 0.819
+  scale: 0.829
 - ID: D031
   SMILES: O=C(C1=CC=C(C)C=C1)C(C2=CC=C(C)C=C2)(C)CNS(C5=CC=C(C3=C(C)ON=C3C4=CC=CC=C4)C=C5)(=O)=O
   MW: 564.71
-  scale: 0.651
+  scale: 0.659
 - ID: D032
   SMILES: O=C(C1=CC=C(C)C=C1)C(C2=CC=C(C)C=C2)(C)CNS(C5=CC=C(N3N=C(C(F)(F)F)C=C3C4=CC=C(C)C=C4)C=C5)(=O)=O
   MW: 631.72
-  scale: 0.587
+  scale: 0.594
 - ID: D033
   SMILES: O=C(C1=CC=CC=C1)C(CNS(C2=C(F)C(F)=C(F)C(F)=C2F)(=O)=O)C3=CC=C(C(F)(F)F)C=C3
   MW: 523.4
-  scale: 0.857
+  scale: 0.867
 - ID: D034
   SMILES: O=C(C1=CC=CC=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=C(C(F)(F)F)C=C3
   MW: 447.48
-  scale: 0.879
+  scale: 0.89
 - ID: D035
   SMILES: O=C(C1=C(C(F)(F)F)C=CC=C1)C(CNS(C2=C(F)C(F)=C(F)C(F)=C2F)(=O)=O)C3=CC=CC=C3
   MW: 523.4
-  scale: 0.854
+  scale: 0.864
 - ID: D036
   SMILES: O=C(C1=C(C(F)(F)F)C=CC=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=CC=C3
   MW: 447.48
-  scale: 0.881
+  scale: 0.891
 - ID: D037
   SMILES: O=C(C1=C(OC)C=CC=C1)C(CNS(=O)(C2=C(F)C(F)=C(F)C(F)=C2F)=O)C3=CC=CC=C3
   MW: 485.43
-  scale: 0.879
+  scale: 0.889
 - ID: D038
   SMILES: O=C(C1=C(OC)C=CC=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=CC=C3
   MW: 409.51
-  scale: 0.905
+  scale: 0.916
 - ID: D039
   SMILES: O=C(C1=CC(C(F)(F)F)=CC=C1)C(CNS(=O)(C2=C(F)C(F)=C(F)C(F)=C2F)=O)C3=CC=CC=C3
   MW: 523.4
-  scale: 0.831
+  scale: 0.841
 - ID: D040
   SMILES: O=C(C1=CC(C(F)(F)F)=CC=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=CC=C3
   MW: 447.48
-  scale: 0.88
+  scale: 0.89
 - ID: D041
   SMILES: O=C(C1=CC(F)=CC(F)=C1)C(CNS(=O)(C2=C(F)C(F)=C(F)C(F)=C2F)=O)C3=CC=CC=C3
   MW: 491.38
-  scale: 0.993
+  scale: 1.005
 - ID: D042
   SMILES: O=C(C1=CC(F)=CC(F)=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=CC=C3
   MW: 415.46
-  scale: 1.027
+  scale: 1.039
 - ID: D043
   SMILES: O=C(CCC)C(C1=CC=CC=C1)(C)CNS(C2=CC=C(C)C=C2)(=O)=O
   MW: 359.49
-  scale: 0.977
+  scale: 0.989
 - ID: D044
   SMILES: O=C(C(C)C)C(C1=CC=CC=C1)(C)CNS(C2=CC=C(C)C=C2)(=O)=O
   MW: 359.49
-  scale: 1.023
+  scale: 1.035
 - ID: D045
   SMILES: O=C(C1CCCC1)C(C2=CC=CC=C2)(C)CNS(C3=CC=C(C)C=C3)(=O)=O
   MW: 385.53
-  scale: 0.972
+  scale: 0.984
 - ID: D046
   SMILES: O=C(C1CCCCC1)C(C2=CC=CC=C2)(C)CNS(C3=CC=C(C)C=C3)(=O)=O
   MW: 399.56
-  scale: 0.881
+  scale: 0.891
 - ID: D047
   SMILES: O=C(C1=CC=CC=C1)C(CNS(C2=C(F)C(F)=C(F)C(F)=C2F)(=O)=O)C3=CC(F)=CC(F)=C3
   MW: 491.38
-  scale: 0.894
+  scale: 0.904
 - ID: D048
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C4=CC=C(C)C=C4)(=O)=O
   MW: 447.56
-  scale: 0.894
+  scale: 0.904
 - ID: D049
   SMILES: O=C(C1=CC=C(C)C=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C4=CC=C(C)C=C4)(=O)=O
   MW: 461.58
-  scale: 0.832
+  scale: 0.842
 - ID: D050
   SMILES: O=C(C1=CC(C)=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C4=CC=C(C)C=C4)(=O)=O
   MW: 461.58
-  scale: 0.919
+  scale: 0.93
 - ID: D051
   SMILES: O=C(C1=C(C)C=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C4=CC=C(C)C=C4)(=O)=O
   MW: 461.58
-  scale: 0.901
+  scale: 0.912
 - ID: D052
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C4=CC=C(F)C=C4)(=O)=O
   MW: 451.52
-  scale: 0.894
+  scale: 0.904
 - ID: D053
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C4=CC=C(Cl)C=C4)(=O)=O
   MW: 467.97
-  scale: 0.894
+  scale: 0.904
 - ID: D054
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C4=CC=C(Br)C=C4)(=O)=O
   MW: 512.43
-  scale: 0.894
+  scale: 0.904
 - ID: D055
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C5=CC=C4C=CC=CC4=C5)(=O)=O
   MW: 483.59
-  scale: 0.659
+  scale: 0.667
 - ID: D056
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C4=CN=CC=C4Cl)(=O)=O
   MW: 468.96
-  scale: 0.927
+  scale: 0.938
 - ID: D057
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(OCC(Cl)(Cl)Cl)(=O)=O
   MW: 504.82
-  scale: 0.933
+  scale: 0.944
 - ID: D058
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(OC[C@@]56OC[C@H]4OC(C)(C)O[C@H]4[C@@H]5OC(C)(C)O6)(=O)=O
   MW: 615.7
-  scale: 0.555
+  scale: 0.561
 - ID: D059
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C6=CC=C(C4=C(C)ON=C4C5=CC=CC=C5)C=C6)(=O)=O
   MW: 590.7
-  scale: 0.65
+  scale: 0.657
 - ID: D060
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C6=CC=C(N4N=C(C(F)(F)F)C=C4C5=CC=C(C)C=C5)C=C6)(=O)=O
   MW: 657.71
-  scale: 0.597
+  scale: 0.604
 - ID: D061
   SMILES: O=C(C1=CC=CC=C1)CCC(C2=NC=CS2)CNS(C3=CC=C(C)C=C3)(=O)=O
   MW: 414.55
-  scale: 0.738
+  scale: 0.746
 - ID: D062
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=NC2=C(C=CC=C2)S3)CNS(C4=CC=C(C)C=C4)(=O)=O
   MW: 464.61
-  scale: 0.894
+  scale: 0.904
 - ID: D063
   SMILES: O=C(C1=CC=CC=C1)CCC(C3=NC2=C(C=CC=C2)C=C3)CNS(C4=CC=C(C)C=C4)(=O)=O
   MW: 458.58
-  scale: 0.824
+  scale: 0.834
 - ID: D064
   SMILES: O=C(C1=CC=CC=C1)CCC(C#CC2=CC=CC=C2)CNS(C3=CC=C(C)C=C3)(=O)=O
   MW: 431.56
-  scale: 0.835
+  scale: 0.845
 - ID: D065
   SMILES: O=C(C1=CC=CC=C1)CCC(/C=C/C2=CC=CC=C2)CNS(C3=CC=C(C)C=C3)(=O)=O
   MW: 433.57
-  scale: 0.887
+  scale: 0.898
 - ID: D066
   SMILES: O=C(C1=CC=CC=C1)CCC(C#N)CNS(C2=CC=C(C)C=C2)(=O)=O
   MW: 356.45
-  scale: 0.756
+  scale: 0.765
 - ID: D067
   SMILES: O=C(C1=CC=CC=C1)C(CC(C3=CC2=C(C=CC=C2)O3)CNS(C4=CC=C(C)C=C4)(=O)=O)=N#N
   MW: 473.55
-  scale: 0.729
+  scale: 0.737
 - ID: D068
   SMILES: O=C(C1=CC=CC=C1)C5N(S(=O)(C2=CC=C(C)C=C2)=O)CC(C4=CC3=C(C=CC=C3)O4)C5
   MW: 445.54
-  scale: 0.798
+  scale: 0.807
 - ID: D069
   SMILES: O=C(C1=CC=C(C)C=C1)C(C2=CC=C(C)C=C2)CN(C)S(C3=CC=C(C)C=C3)(=O)=O
   MW: 421.56
-  scale: 1.017
+  scale: 1.029
 - ID: D070
   SMILES: O=C(C1=CC=C(C)C=C1)C(C2=CC=C(C)C=C2)(C)CN(C)S(C3=CC=C(C)C=C3)(=O)=O
   MW: 435.59
-  scale: 0.892
+  scale: 0.903
 - ID: D071
   SMILES: O[C@H](C1=CC=C(C)C=C1)[C@@H](CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC=C(C)C=C3
   MW: 409.55
-  scale: 1.026
+  scale: 1.038
 - ID: D072
   SMILES: OC(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)CNS(C4=CC=C(C)C=C4)(=O)=O
   MW: 449.57
-  scale: 0.894
+  scale: 0.904
 - ID: D073
   SMILES: O=S(N4C(C1=CC=CC=C1)CCC(C3=CC2=C(C=CC=C2)O3)C4)(C5=CC=C(C)C=C5)=O
   MW: 431.56
-  scale: 0.874
+  scale: 0.884
 - ID: D074
   SMILES: O=C(C1=CC=CC=C1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)C3=CC(F)=CC(F)=C3
   MW: 415.46
-  scale: 0.914
+  scale: 0.925
 - ID: D075
   SMILES: C5C1=CC(Cl)=CC=C1/C(=C\2CCN(C(OCC)=O)CC2)C4=NC=C(S(C3=CC=CC=C3)(=O)=O)C=C4C5
   MW: 523.05
-  scale: 0.704
+  scale: 0.713
 - ID: D076
   SMILES: O=C(NC3=CC=C(Cl)C(C2=CC=C(S(C1=CC=CC=C1)(=O)=O)C=N2)=C3)C4=CC=C(S(=O)(C)=O)C=C4Cl
   MW: 561.47
-  scale: 0.626
+  scale: 0.633
 - ID: D077
   SMILES: O=C(NC3=CC=C(Cl)C(C2=CC=C(S(C1=CC=C(Cl)C=C1)(=O)=O)C=N2)=C3)C4=CC=C(S(=O)(C)=O)C=C4Cl
   MW: 595.91
-  scale: 0.585
+  scale: 0.592
 - ID: D078
   SMILES: O=C(NC3=CC=C(Cl)C(C2=CC=C(S(C1=C(Cl)C=CC=C1)(=O)=O)C=N2)=C3)C4=CC=C(S(=O)(C)=O)C=C4Cl
   MW: 595.91
-  scale: 0.621
+  scale: 0.629
 - ID: D079
   SMILES: O=C(NC3=CC=C(Cl)C(C2=CC=C(S(C1=CN(C)N=C1)(=O)=O)C=N2)=C3)C4=CC=C(S(=O)(C)=O)C=C4Cl
   MW: 565.46
-  scale: 0.635
+  scale: 0.642
 - ID: D080
   SMILES: O=C(NC3=CC=C(Cl)C(C2=CC=C(S(C1=CC=CN=C1)(=O)=O)C=N2)=C3)C4=CC=C(S(=O)(C)=O)C=C4Cl
   MW: 562.46
-  scale: 0.626
+  scale: 0.633
 - ID: D081
   SMILES: O=C(NC3=CC=C(Cl)C(C2=CC=C(S(C1=CC=C(C(F)(F)F)C=C1)(=O)=O)C=N2)=C3)C4=CC=C(S(=O)(C)=O)C=C4Cl
   MW: 629.47
-  scale: 0.539
+  scale: 0.545
 - ID: D101
   SMILES: O=C(NC3=CC=C(Cl)C(C2=CC=C(S(C1=CC=C(OC(F)(F)F)C=C1)(=O)=O)C=N2)=C3)C4=CC=C(S(=O)(C)=O)C=C4Cl
   MW: 645.46
-  scale: 0.508
+  scale: 0.514
 - ID: D102
   SMILES: O=C(NC3=CC=C(Cl)C(C2=CC=C(S(C1=CC(Cl)=CC=C1)(=O)=O)C=N2)=C3)C4=CC=C(S(=O)(C)=O)C=C4Cl
   MW: 595.91
-  scale: 0.583
+  scale: 0.589
 - ID: D103
   SMILES: O=C(NC3=CC=C(Cl)C(C2=CC=C(S(C1=C(F)C(F)=C(F)C(F)=C1F)(=O)=O)C=N2)=C3)C4=CC=C(S(=O)(C)=O)C=C4Cl
   MW: 651.42
-  scale: 0.569
+  scale: 0.575
 - ID: D104
   SMILES: '[2H]C(C(OCC)=O)NC1=CC=CC(NC(C(C)C2=CC=C(C3=CC=CC=C3)C(F)=C2)=O)=C1'
   MW: 421.49
-  scale: 0.677
+  scale: 0.685
 - ID: D105
   SMILES: '[2H]C(C(OCC)=O)NC1=CC=CC(NC(CC2=C(C)N(C(C3=CC=C(Cl)C=C3)=O)C4=C2C=C(OC)C=C4)=O)=C1'
   MW: 535.02
-  scale: 0.565
+  scale: 0.572
 - ID: D106
   SMILES: '[2H]C(C(OCC)=O)NC1=CC=CC(NC(CCCCCCCCCCC)=O)=C1'
   MW: 377.55
-  scale: 0.516
+  scale: 0.522
 - ID: D107
   SMILES: '[2H]C(C(OCC)=O)NC1=CC=CC(NC(C(C)(C)CCCOC2=C(C)C=CC(C)=C2)=O)=C1'
   MW: 427.56
-  scale: 0.571
+  scale: 0.578
 - ID: D108
   SMILES: '[2H]C(C(OCC)=O)NC1=CC=CC(NC(CCCC2=CC=C(C=C3)C4=C2C=CC5=C4C3=CC=C5)=O)=C1'
   MW: 465.57
-  scale: 0.531
+  scale: 0.537
 - ID: D109
   SMILES: '[2H]C(C(OCC)=O)NC1=CC=CC(NC(C2=C(C)N=C(C3=CC=C(OCC(C)C)C(C#N)=C3)S2)=O)=C1'
   MW: 493.61
-  scale: 0.521
+  scale: 0.527
 - ID: D110
   SMILES: '[2H]C(C(OCC)=O)NC1=CC=CC(NC(CCC(C2=C(C=CC=C3)C3=C(OC)C=C2)=O)=O)=C1'
   MW: 435.5
-  scale: 0.624
+  scale: 0.631
 - ID: D111
   SMILES: '[2H]C(C(OCC)=O)NC1=CC=CC(NC(CC2=CC(C(C(C=CC=C3)=C3CO4)=O)=C4C=C2)=O)=C1'
   MW: 445.49
-  scale: 0.575
+  scale: 0.582
 - ID: D112
   SMILES: ClC1=CC=C(/C(C(N=CC=C2)=C2CC3)=C4CCN(C(NC5CCCCC5)=O)CC\4)C3=C1
   MW: 436.0
-  scale: 0.868
+  scale: 0.878
 - ID: D113
   SMILES: ClC1=CC=C(/C(C(N=CC=C2)=C2CC3)=C4CCN(C(NC5=CC=CC(Br)=C5)=O)CC\4)C3=C1
   MW: 508.85
-  scale: 0.864
+  scale: 0.875
 - ID: D114
   SMILES: ClC1=CC=C(/C(C(N=CC=C2)=C2CC3)=C4CCN(C(NC5=CC=C(F)C=C5F)=O)CC\4)C3=C1
   MW: 465.93
-  scale: 0.777
+  scale: 0.786
 - ID: E001
   SMILES: O=C(NC1=CC(OC)=CC(S(=O)(C)=O)=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=C(C(F)(F)F)C=C4
   MW: 502.51
-  scale: 0.887
+  scale: 0.898
 - ID: E002
   SMILES: O=C(NC1=CC=CC=C1C)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 340.43
-  scale: 1.3
+  scale: 1.315
 - ID: E003
   SMILES: O=C(NC1=CC(S(=O)(C)=O)=CC(OC)=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 434.52
-  scale: 0.997
+  scale: 1.008
 - ID: E004
   SMILES: O=C(NC1=CC(C(N)=O)=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 369.42
-  scale: 1.017
+  scale: 1.029
 - ID: E005
   SMILES: O=C(NC1=CC(OC)=C(OC)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 386.45
-  scale: 1.113
+  scale: 1.127
 - ID: E006
   SMILES: O=C(NC1=CC=C(Cl)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 360.84
-  scale: 1.145
+  scale: 1.158
 - ID: E007
   SMILES: O=C(NC1=CC=C(C(F)(F)F)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 394.4
-  scale: 0.993
+  scale: 1.004
 - ID: E008
   SMILES: O=C(NC1CC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 290.37
-  scale: 1.459
+  scale: 1.476
 - ID: E009
   SMILES: O=C(NC1(C2)CC2C1)C(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
   MW: 316.4
-  scale: 1.429
+  scale: 1.446
 - ID: E010
   SMILES: O=C(NC1CCCC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 318.42
-  scale: 1.349
+  scale: 1.364
 - ID: E011
   SMILES: O=C(N1CC(C1)=O)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 304.35
-  scale: 1.284
+  scale: 1.299
 - ID: E012
   SMILES: O=C(NC1=NOC(C)=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 331.38
-  scale: 1.162
+  scale: 1.175
 - ID: E013
   SMILES: O=C(N(C1=CC=CC=C1)C)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 340.43
-  scale: 1.277
+  scale: 1.292
 - ID: E014
   SMILES: O=C(N[C@@H](C(C)C)CO)C(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3
   MW: 336.44
-  scale: 1.293
+  scale: 1.308
 - ID: E015
   SMILES: O=C(NCC1=CC=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 340.43
-  scale: 1.063
+  scale: 1.075
 - ID: E016
   SMILES: O=C(NCC(C=C1)=CC=C1Cl)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 374.87
-  scale: 0.943
+  scale: 0.954
 - ID: E017
   SMILES: O=C(NCC1=CC=C(OC)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 370.45
-  scale: 0.897
+  scale: 0.908
 - ID: E018
   SMILES: O=C(NCC1=CC=CC=C1C(F)(F)F)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 408.42
-  scale: 1.084
+  scale: 1.097
 - ID: E019
   SMILES: O=C(NCC1=CC=C(C(F)(F)F)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 408.42
-  scale: 0.835
+  scale: 0.845
 - ID: E020
   SMILES: O=C(NCC1=CC(C(F)(F)F)=C(Cl)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 442.87
-  scale: 0.912
+  scale: 0.922
 - ID: E021
   SMILES: O=C(NCC1=CC(OC)=C(OC)C(OC)=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 430.5
-  scale: 0.854
+  scale: 0.864
 - ID: E022
   SMILES: O=C(N(C)CC1=CC=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 354.45
-  scale: 1.047
+  scale: 1.059
 - ID: E023
   SMILES: O=C(NC1=CC=C(Cl)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 360.84
-  scale: 1.145
+  scale: 1.158
 - ID: E024
   SMILES: O=C(NC1=C(OC)C=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 356.43
-  scale: 1.159
+  scale: 1.173
 - ID: E025
   SMILES: O=C(NC1=CC=C(C)C=C1Br)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 419.32
-  scale: 1.133
+  scale: 1.146
 - ID: E026
   SMILES: O=C(NC1=CC=C(C2=CN=CO2)C=C1)C(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
   MW: 393.45
-  scale: 0.918
+  scale: 0.929
 - ID: E027
   SMILES: O=C(NC1=CC=C(C2=CN=CS2)C=C1)C(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
   MW: 409.51
-  scale: 0.918
+  scale: 0.929
 - ID: E028
   SMILES: O=C(NC1=CC(OC)=C(OC)C(OC)=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 416.48
-  scale: 1.075
+  scale: 1.088
 - ID: E029
   SMILES: O=C(NC1=CC=C(OC)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 356.43
-  scale: 1.024
+  scale: 1.036
 - ID: E030
   SMILES: O=C(NC1=CC=C(C)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 340.43
-  scale: 1.145
+  scale: 1.158
 - ID: E031
   SMILES: O=C(NC1=CC=CC(C)=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 340.43
-  scale: 1.294
+  scale: 1.309
 - ID: E032
   SMILES: O=C(NCCC1=CC=C(OC)C(OC)=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 414.51
-  scale: 0.829
+  scale: 0.839
 - ID: E033
   SMILES: O=C(N1CC(C=CC=C2)=C2C1)C(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
   MW: 352.44
-  scale: 1.138
+  scale: 1.151
 - ID: E034
   SMILES: O=C(NC(C)C1=C(Cl)C=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 388.9
-  scale: 1.284
+  scale: 1.299
 - ID: E035
   SMILES: O=C(NCCCC)C(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3
   MW: 306.41
-  scale: 1.152
+  scale: 1.165
 - ID: E036
   SMILES: O=C(NCCCCC)C(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3
   MW: 320.44
-  scale: 1.042
+  scale: 1.054
 - ID: E037
   SMILES: O=C(NC1CCCCC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 332.45
-  scale: 1.298
+  scale: 1.313
 - ID: E038
   SMILES: O=C(NCCC1=CC=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 354.45
-  scale: 1.027
+  scale: 1.039
 - ID: E039
   SMILES: O=C(NC1=CC=C(OC(F)(F)F)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 410.4
-  scale: 0.916
+  scale: 0.926
 - ID: E040
   SMILES: O=C(NC1=CC(C(F)(F)F)=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 394.4
-  scale: 0.995
+  scale: 1.006
 - ID: E041
   SMILES: O=C(NCC1=CC(Cl)=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 374.87
-  scale: 1.053
+  scale: 1.065
 - ID: E042
   SMILES: O=C(NCC1=NC=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 341.41
-  scale: 1.063
+  scale: 1.075
 - ID: E043
   SMILES: O=C(NC1=CC=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 326.4
-  scale: 1.298
+  scale: 1.313
 - ID: E044
   SMILES: O=C(NCC1=NC=CC=C1)C(C2=CNC3=C2C=C(OC(F)(F)F)C=C3)C4=CC=CC=C4
   MW: 425.41
-  scale: 1.05
+  scale: 1.063
 - ID: E045
   SMILES: O=C(NC1=CC(OCCCC(OC(C)(C)C)=O)=CC(OC)=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 514.62
-  scale: 0.606
+  scale: 0.613
 - ID: E046
   SMILES: O=C(NC1=CC(OCCCC(O)=O)=CC(OC)=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 458.51
-  scale: 0.736
+  scale: 0.745
 - ID: E047
   SMILES: O=C(NCC1CCN(C(OC(C)(C)C)=O)C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 433.55
-  scale: 0.813
+  scale: 0.823
 - ID: E048
   SMILES: O=C(NCC1CCN(C(OC(C)(C)C)=O)CC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 447.58
-  scale: 0.715
+  scale: 0.723
 - ID: E049
   SMILES: O=C(NCC1CCNC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4.Cl
   MW: 369.9
-  scale: 1.118
+  scale: 1.132
 - ID: E050
   SMILES: O=C(NCC1CCNCC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4.Cl
   MW: 383.92
-  scale: 1.054
+  scale: 1.067
 - ID: E051
   SMILES: O=C(NCC1=C(C2=CC=C(C)C=C2)N=CC=C1)C(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
   MW: 431.54
-  scale: 1.006
+  scale: 1.018
 - ID: E052
   SMILES: BrC1=CC=C(N(C(C(F)(Br)F)=O)C(C(NC2=CC=C(Br)C=C2)=O)C3=CC(OCO4)=C4C=C3)C=C1
   MW: 661.09
-  scale: 0.99
+  scale: 1.002
 - ID: E053
   SMILES: BrC1=CC=C(N(C(C(F)(Br)F)=O)C(C(NC2=CC=C(Br)C=C2)=O)C3=CC(C=CC=C4)=C4N3C)C=C1
   MW: 670.15
-  scale: 0.919
+  scale: 0.929
 - ID: E054
   SMILES: O=C(C(F)(Br)F)N(C(C(NC1=CC=C(OC(Cl)(F)F)C=C1)=O)C2=CC(C=CC=C3)=C3N2C)C4=CC=C(OC(F)(F)Cl)C=C4
   MW: 713.26
-  scale: 0.761
+  scale: 0.77
 - ID: E055
   SMILES: O=C(C(F)(Br)F)N(C(C(NC1=CC=C(Br)C=C1)=O)C2=CN=CN=C2)C3=CC=C(Br)C=C3
   MW: 619.06
-  scale: 0.85
+  scale: 0.86
 - ID: E056
   SMILES: O=C(C(F)(F)Br)N(C(C1=CN=CN=C1)C(NC2CCOCC2)=O)C3=CC=C(Br)C=C3
   MW: 548.18
-  scale: 1.221
+  scale: 1.235
 - ID: E057
   SMILES: O=C(C(F)(F)Br)N(C(C1=CN=CN=C1)C(NC2CCOCC2)=O)C3=CC=C(OC(F)(F)Cl)C=C3
   MW: 569.74
-  scale: 0.987
+  scale: 0.998
 - ID: E058
   SMILES: O=C(C(F)(F)Br)N(C(C1=CC=CN=C1)C(NC2CCOCC2)=O)C3=CC=C(OC(F)(F)Cl)C=C3
   MW: 568.75
-  scale: 0.987
+  scale: 0.998
 - ID: E059
   SMILES: O=C(C(F)(F)Br)N(C(C1=CC(C=CC=C2)=C2N1C)C(NC3CCOCC3)=O)C4=CC=C(Br)C=C4
   MW: 599.27
-  scale: 0.971
+  scale: 0.982
 - ID: E060
   SMILES: O=C(C(F)(F)Br)N(C(C1=CC(C=CC=C2)=C2N1C)C(NC3CCOCC3)=O)C4=CC=C(OC(F)(F)Cl)C=C4
   MW: 620.83
-  scale: 0.8
+  scale: 0.809
 - ID: E061
   SMILES: O=C1N(C)C2=CC=C(C(F)(F)F)C=C2C13NC4=CC=C(C(F)(F)F)C=C4C=C3
   MW: 398.31
-  scale: 1.12
+  scale: 1.133
 - ID: E062
   SMILES: FC(C=C1)=CC=C1[C@@H](C(C(OC)=O)NC2=CC=CC=C2)NC3=CC=CC=C3
   MW: 364.42
-  scale: 1.087
+  scale: 1.099
 - ID: E063
   SMILES: O=C(N1CCOCC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 320.39
-  scale: 1.344
+  scale: 1.359
 - ID: E064
   SMILES: O=C(N1CCCCC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 318.42
-  scale: 1.344
+  scale: 1.359
 - ID: E065
   SMILES: O=C(NCC1CCCCC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 346.47
-  scale: 1.063
+  scale: 1.075
 - ID: E066
   SMILES: O=C(NCCC1=CC=C(C)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 368.48
-  scale: 0.92
+  scale: 0.931
 - ID: E067
   SMILES: O=C(NC1CCCCCC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 346.47
-  scale: 1.226
+  scale: 1.241
 - ID: E068
   SMILES: O=C(NCCC1CCCCC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 360.5
-  scale: 1.027
+  scale: 1.039
 - ID: E069
   SMILES: O=C(NCCC1=CC=C(O)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 370.45
-  scale: 0.92
+  scale: 0.931
 - ID: E070
   SMILES: O=C(NCCC1=CC=C(Cl)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 388.9
-  scale: 0.92
+  scale: 0.931
 - ID: E071
   SMILES: O=C(NCCC1=CC(Cl)=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 388.9
-  scale: 0.923
+  scale: 0.934
 - ID: E072
   SMILES: O=C(NCCC1=C(Cl)C=CC=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 388.9
-  scale: 1.018
+  scale: 1.03
 - ID: E073
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=C(F)C=CC=C4)=O
   MW: 394.47
-  scale: 1.127
+  scale: 1.14
 - ID: E074
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(Cl)S4)=O
   MW: 416.96
-  scale: 1.029
+  scale: 1.041
 - ID: E075
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC(C#N)=CC=C4)=O
   MW: 401.49
-  scale: 0.921
+  scale: 0.932
 - ID: E076
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(C)C=C4)=O
   MW: 390.51
-  scale: 1.0
+  scale: 1.012
 - ID: E077
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(I)C=C4)=O
   MW: 502.38
-  scale: 1.0
+  scale: 1.012
 - ID: E078
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(N4CCCCC4)=O
   MW: 383.52
-  scale: 1.131
+  scale: 1.144
 - ID: E079
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=CC=C4OC)=O
   MW: 406.51
-  scale: 1.117
+  scale: 1.13
 - ID: E080
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(OC(F)(F)F)C=C4)=O
   MW: 460.48
-  scale: 0.827
+  scale: 0.836
 - ID: E101
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=CC(OC)=C4)=O
   MW: 406.51
-  scale: 1.042
+  scale: 1.054
 - ID: E102
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=CC=C4Cl)=O
   MW: 410.93
-  scale: 1.122
+  scale: 1.135
 - ID: E103
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=CC(Cl)=C4)=O
   MW: 410.93
-  scale: 1.125
+  scale: 1.138
 - ID: E104
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(C(F)(F)F)C=C4)=O
   MW: 444.48
-  scale: 0.881
+  scale: 0.892
 - ID: E105
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=C(Cl)C=CC(C(F)(F)F)=C4)=O
   MW: 478.92
-  scale: 1.025
+  scale: 1.037
 - ID: E106
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(C#N)C=C4)=O
   MW: 401.49
-  scale: 0.894
+  scale: 0.905
 - ID: E107
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(C=O)C=C4)=O
   MW: 404.49
-  scale: 0.913
+  scale: 0.924
 - ID: E108
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(CCBr)=O
   MW: 407.33
-  scale: 1.347
+  scale: 1.363
 - ID: E109
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(CCC4=CC=CC=C4)=O
   MW: 404.54
-  scale: 0.973
+  scale: 0.985
 - ID: E110
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=C(N=CC=C5)C5=CC=C4)=O
   MW: 427.53
-  scale: 0.94
+  scale: 0.951
 - ID: E111
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(OC)C=C4)=O
   MW: 406.51
-  scale: 0.913
+  scale: 0.924
 - ID: E112
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(F)C=C4)=O
   MW: 394.47
-  scale: 1.0
+  scale: 1.012
 - ID: E113
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(Cl)C=C4)=O
   MW: 410.93
-  scale: 1.0
+  scale: 1.012
 - ID: E114
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=CS4)=O
   MW: 382.51
-  scale: 1.173
+  scale: 1.187
 - ID: E115
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(CCCC)=O
   MW: 356.49
-  scale: 1.22
+  scale: 1.234
 - ID: E116
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=C(C)ON=C4C)=O
   MW: 395.48
-  scale: 1.155
+  scale: 1.168
 - ID: E117
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CN(C)N=C4)=O
   MW: 380.47
-  scale: 1.134
+  scale: 1.148
 - ID: E118
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=C(F)C(F)=C(F)C(F)=C4F)=O
   MW: 466.43
-  scale: 0.97
+  scale: 0.981
 - ID: E119
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=CC(C)=C4)=O
   MW: 390.51
-  scale: 1.125
+  scale: 1.138
 - ID: E120
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=CC=C4[N+]([O-])=O)=O
   MW: 421.48
-  scale: 1.11
+  scale: 1.123
 - ID: E121
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C([N+]([O-])=O)C=C4)=O
   MW: 421.48
-  scale: 0.912
+  scale: 0.923
 - ID: E122
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(Br)C=C4)=O
   MW: 455.38
-  scale: 1.0
+  scale: 1.012
 - ID: E123
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(CC4=CC=CC=C4)=O
   MW: 390.51
-  scale: 1.116
+  scale: 1.129
 - ID: E124
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(CC)=O
   MW: 328.44
-  scale: 1.447
+  scale: 1.464
 - ID: E125
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC(C)=CC(C(F)(F)F)=C4)=O
   MW: 458.51
-  scale: 1.024
+  scale: 1.036
 - ID: E126
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(C=C)C=C4)=O
   MW: 402.52
-  scale: 0.913
+  scale: 0.924
 - ID: E127
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=C(Cl)C=C(Cl)C=C4Cl)=O
   MW: 479.82
-  scale: 0.985
+  scale: 0.997
 - ID: E128
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=C(C(C)C)C=C(C(C)C)C=C4C(C)C)=O
   MW: 502.72
-  scale: 0.866
+  scale: 0.876
 - ID: E129
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=C(C=CC=C5)C5=C4)=O
   MW: 426.54
-  scale: 0.826
+  scale: 0.835
 - ID: E130
   SMILES: O=C(NC1=CC=CC(Br)=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 434.34
-  scale: 1.016
+  scale: 1.028
 - ID: E131
   SMILES: O=C(NC1=CC=C(F)C=C1F)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
   MW: 391.42
-  scale: 0.911
+  scale: 0.922
 - ID: E132
   SMILES: O=C(NC1=CC=CC(Br)=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CN=C4
   MW: 435.33
-  scale: 1.016
+  scale: 1.028
 - ID: E133
   SMILES: O=C(NC1=CC=C(F)C=C1F)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CN=C4
   MW: 392.41
-  scale: 0.911
+  scale: 0.922
 - ID: E134
   SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CC=C3)(C4=CC=CS4)=O
   MW: 382.51
-  scale: 1.173
+  scale: 1.187
 - ID: E135
   SMILES: O=C(NC1=CC=CC2=C1SC=N2)C(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
   MW: 383.48
-  scale: 1.115
+  scale: 1.128
 - ID: E136
   SMILES: O=C(NC1CCCCC1)C(C2=CNC3=C2C=C(OC(F)(F)F)C=C3)C4=CC=CC=C4
   MW: 416.44
-  scale: 1.096
+  scale: 1.109
 - ID: E137
   SMILES: O=C(NCCC1=CC=CC=C1)C(C2=CNC3=C2C=C(OC(F)(F)F)C=C3)C4=CC=CC=C4
   MW: 438.45
-  scale: 0.988
+  scale: 1.0
+- ID: E138
+  SMILES: O=C(NC1=CC=CC=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 355.44
+  scale: 1.038
+- ID: E139
+  SMILES: O=C(NC1=CC=C(OC(F)(F)F)C=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 439.44
+  scale: 0.769
+- ID: E140
+  SMILES: O=C(NC1=CC=CC(C(F)(F)F)=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 423.44
+  scale: 0.962
+- ID: E141
+  SMILES: O=C(NC1=CC(OC)=C(OC)C=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 415.49
+  scale: 0.904
+- ID: E142
+  SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CN=C3)(C4=CC=C(Cl)S4)=O
+  MW: 417.94
+  scale: 1.041
+- ID: E143
+  SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CN=C3)(C4=C(F)C=CC=C4)=O
+  MW: 395.46
+  scale: 1.14
+- ID: E144
+  SMILES: O=S(NCC(C1=CNC2=C1C=CC=C2)C3=CC=CN=C3)(C4=CC(C#N)=CC=C4)=O
+  MW: 402.48
+  scale: 0.932
+- ID: E145
+  SMILES: S=C(NC1=CC=C(Cl)C=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CN=C4
+  MW: 406.94
+  scale: 0.93
+- ID: E146
+  SMILES: S=C(NC1=CC=C(Cl)C=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 405.95
+  scale: 0.93
+- ID: E147
+  SMILES: O=C(NC1=CC=C(Cl)C=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 389.89
+  scale: 0.93
+- ID: E148
+  SMILES: O=C(NC1=CC=C(Cl)C=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CN=C4
+  MW: 390.87
+  scale: 0.93
+- ID: E149
+  SMILES: O=C(NCC1=CC=CC=C1)C2CCC2N3C=NC4=C3C=CC=C4
+  MW: 305.38
+  scale: 0.916
+- ID: E150
+  SMILES: O=C(NCCC1=CC=CC=C1)C2CCC2N3C=NC4=C3C=CC=C4
+  MW: 319.41
+  scale: 0.863
+- ID: E151
+  SMILES: O=C(NCCCC1=CC=CC=C1)C2CCC2N3C=NC4=C3C=CC=C4
+  MW: 333.44
+  scale: 0.772
+- ID: E152
+  SMILES: O=C(NCCC1=CC=C(O)C=C1)C2CCC2N3C=NC4=C3C=CC=C4
+  MW: 335.41
+  scale: 0.797
+- ID: E153
+  SMILES: O=C(NCCC1=NC2=C(C=CC=C2)N1)C3CCC3N4C=NC5=C4C=CC=C5
+  MW: 359.43
+  scale: 0.841
+- ID: E154
+  SMILES: O=C(N1CCN2C(C1)=NN=C2C(F)(F)F)C3CCC3N4C=NC5=C4C=CC=C5
+  MW: 390.37
+  scale: 0.804
+- ID: E155
+  SMILES: O=C(NCC1=C(C)C=C(C)NC1=O)C2CCC2N3C=NC4=C3C=CC=C4
+  MW: 350.42
+  scale: 0.815
+- ID: E156
+  SMILES: O=C(NCC1=CC=C(C(C2)=C1)C(N2C(CC3)C(NC3=O)=O)=O)C4CCC4N5C=NC6=C5C=CC=C6
+  MW: 471.52
+  scale: 0.584
+- ID: E157
+  SMILES: O=C(NCCC1=CNC2=CC=CC=C21)C3CCC3N4C=NC5=C4C=CC=C5
+  MW: 358.45
+  scale: 0.753
+- ID: E158
+  SMILES: O=C(NC1=CC(OCCCC(OC(C)(C)C)=O)=CC(OC)=C1)C2CC(N3CCC4=C3C=CC=C4)(C5=CC=CC=C5)C2
+  MW: 556.7
+  scale: 0.598
+- ID: E159
+  SMILES: O=C(NCCC1=NC2=CC=CC=C2N1)C(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
+  MW: 394.48
+  scale: 0.818
+- ID: E160
+  SMILES: O=S(C1=CC=C(CNC(C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4)=O)C=C1)(N)=O
+  MW: 419.51
+  scale: 0.845
+- ID: E161
+  SMILES: CC1=C(CNC(C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4)=O)C(NC(C)=C1)=O
+  MW: 385.47
+  scale: 0.943
+- ID: E162
+  SMILES: O=C1NC(C(N2C(C3=CC=C(CNC(C(C4=CNC5=C4C=CC=C5)C6=CC=CC=C6)=O)C=C3C2)=O)CC1)=O
+  MW: 506.56
+  scale: 0.611
+- ID: E163
+  SMILES: O=C(NCCC1=CNC=N1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 344.42
+  scale: 1.067
+- ID: E164
+  SMILES: O=C(N(C1)CCN2C1=NN=C2C(F)(F)F)C(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
+  MW: 425.41
+  scale: 0.979
+- ID: E165
+  SMILES: O=C(NCCC1=CNC2=C1C=CC=C2)C(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
+  MW: 393.49
+  scale: 0.88
+- ID: E166
+  SMILES: O=S(C1=CC=CC=C1F)(NCCC2=NC3=C(C=CC=C3)N2)=O
+  MW: 319.36
+  scale: 1.004
+- ID: E167
+  SMILES: O=S(C1=CC=C(I)C=C1)(NCCC2=NC3=C(C=CC=C3)N2)=O
+  MW: 427.27
+  scale: 0.919
+- ID: E168
+  SMILES: O=S(C1=CC=C(F)C=C1)(NCCC2=NC3=C(C=CC=C3)N2)=O
+  MW: 319.36
+  scale: 0.919
+- ID: E169
+  SMILES: O=S(C1=CC=CC=C1F)(NCCC2=CC3=C(C=CC=C3)N2)=O
+  MW: 318.37
+  scale: 1.004
+- ID: E170
+  SMILES: O=S(C1=CC=C(I)C=C1)(NCCC2=CC3=C(C=CC=C3)N2)=O
+  MW: 426.28
+  scale: 0.919
+- ID: E171
+  SMILES: O=S(C1=CC=C(F)C=C1)(NCCC2=CC3=C(C=CC=C3)N2)=O
+  MW: 318.37
+  scale: 0.919
+- ID: E172
+  SMILES: O=S(C1=CC=C(F)C=C1)(NCC2=C(C)C=C(C)NC2=O)=O
+  MW: 310.35
+  scale: 0.975
+- ID: E173
+  SMILES: O=C(NCCC1=NC2=C(C=CC=C2)N1)NCC(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
+  MW: 423.52
+  scale: 0.698
+- ID: E174
+  SMILES: O=C(NCC1=C(C)C=C(C)NC1=O)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 414.51
+  scale: 0.804
+- ID: E175
+  SMILES: O=C(NCCC1=CNC2=CC=CC=C21)NCC(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
+  MW: 422.53
+  scale: 0.738
+- ID: E176
+  SMILES: O=C(NCCC1=CNC=N1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 373.46
+  scale: 0.869
+- ID: E177
+  SMILES: O=S(C1=CC=C(CNC(NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4)=O)C=C1)(N)=O
+  MW: 448.55
+  scale: 0.727
+- ID: E178
+  SMILES: O=C1NC(C(N2C(C3=CC=C(CNC(NCC(C4=CNC5=C4C=CC=C5)C6=CC=CC=C6)=O)C=C3C2)=O)CC1)=O
+  MW: 535.6
+  scale: 0.533
+- ID: E179
+  SMILES: O=C(NC1C(NC(CC1)=O)=O)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 361.4
+  scale: 1.163
+- ID: E180
+  SMILES: O=C(NC12C[C@H]3CC(C2)C[C@@H](C1)C3)C(C4=CNC5=C4C=CC=C5)C6=CC=CC=C6
+  MW: 384.52
+  scale: 1.155
+- ID: E201
+  SMILES: O=C(NCC1=CC=C(C#N)C=C1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 365.44
+  scale: 0.856
+- ID: E202
+  SMILES: O=C(NC12C[C@H]3C[C@@H](C2)C[C@@H](C1)C3)NCC(C4=CNC5=C4C=CC=C5)C6=CC=CC=C6
+  MW: 413.57
+  scale: 0.946
+- ID: E203
+  SMILES: O=C(NC1CC(CNC1=O)=O)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 390.44
+  scale: 0.93
+- ID: E204
+  SMILES: O=C(NCC1=CC=C(C#N)C=C1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 394.48
+  scale: 0.739
+- ID: E205
+  SMILES: O=C(N1CCN2C(C1)=NN=C2C(F)(F)F)NCC(C3=CNC4=C3C=CC=C4)C5=CC=CC=C5
+  MW: 454.46
+  scale: 0.788
+- ID: E206
+  SMILES: O=C(NCCN1CCN(C)CC1)C(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 376.5
+  scale: 0.931
+- ID: E207
+  SMILES: O=C(NCCN1CCN(C)CC1)NCC(C2=CNC3=C2C=CC=C3)C4=CC=CC=C4
+  MW: 405.55
+  scale: 0.774
 - ID: F001
   SMILES: O=C(NCC1=CC=CC=C1)CCC3=CNC2=CC=CC=C23
   MW: 278.36
-  scale: 0.925
+  scale: 0.936
 - ID: F002
   SMILES: FC5=CC=C(C2CCN(C(C1=CC=CC=C1)=O)CC2COC4=CC3=C(OCO3)C=C4)C=C5
   MW: 433.48
-  scale: 0.801
+  scale: 0.811
 - ID: F003
   SMILES: COC3=CC1=C(N=CC=C1)C(NC(C)CCCNC(C2=CC=CC=C2)=O)=C3
   MW: 363.46
-  scale: 0.785
+  scale: 0.794
 - ID: F004
   SMILES: O=C(OCC)C2=CC(OC(CC)CC)C(NC(C)=O)C(NC(C1=CC=CC=C1)=O)C2
   MW: 416.52
-  scale: 0.894
+  scale: 0.905
 - ID: F005
   SMILES: O=C(C1=CC=CC=C1)N(CCC(C2=CC=CC=C2)OC3=CC=C(C(F)(F)F)C=C3)C
   MW: 413.44
-  scale: 0.93
+  scale: 0.941
 - ID: F006
   SMILES: CN2C(C)=C(NC(C1=CC=CC=C1)=O)C(=O)N2C3=CC=CC=C3
   MW: 307.35
-  scale: 1.0
+  scale: 1.012
 - ID: F007
   SMILES: O=C(OC)C2=C(C)NC(COCCNC(C1=CC=CC=C1)=O)=C(C(OCC)=O)C2C3=CC=CC=C3Cl
   MW: 512.99
-  scale: 0.671
+  scale: 0.679
 - ID: F008
   SMILES: O=C(CC(NC(C1=CC=CC=C1)=O)CC2=C(F)C=C(F)C(F)=C2)N4CCN3C(C(F)(F)F)=NN=C3C4
   MW: 511.43
-  scale: 0.779
+  scale: 0.788
 - ID: F009
   SMILES: C5C1=CC(Cl)=CC=C1/C(=C\3CCN(C(C2=CC=CC=C2)=O)CC3)C4=NC=CC=C4C5
   MW: 414.94
-  scale: 1.007
+  scale: 1.019
 - ID: F010
   SMILES: ClC4=C(Cl)C=C([C@H]2CC[C@H](N(C(C1=CC=CC=C1)=O)C)C3=C2C=CC=C3)C=C4
   MW: 410.34
-  scale: 0.824
+  scale: 0.834
 - ID: F011
   SMILES: O=S(C2=C1C=CN=CC1=CC=C2)(N4CCN(C(C3=CC=CC=C3)=O)CCC4)=O
   MW: 395.48
-  scale: 0.886
+  scale: 0.897
 - ID: F012
   SMILES: O=C(NCCCC(C)NC1=C(OC)C=CC2=C1N=CC=C2)CCC(O[C@H]6[C@H](C)[C@@H]3CC[C@@H](C)[C@@H]4CC[C@]5(C)OO[C@@]34C(O5)O6)=O
   MW: 625.76
-  scale: 0.49
+  scale: 0.496
 - ID: F013
   SMILES: O=C(NCCCC(C)NC1=C(OC)C=CC2=C1N=CC=C2)C(C)C3=CC=C(CC(C)C)C=C3
   MW: 447.62
-  scale: 0.659
+  scale: 0.667
 - ID: F014
   SMILES: O=C(NCCOCC2=C(C(OCC)=O)C(C1=CC=CC=C1Cl)C(C(OC)=O)=C(C)N2)C3=CC8=C(C=C3)C=C(C7=CC=C(C46C[C@H]5C[C@@H](C4)CC(C5)C6)C(O)=C7)C=C8
   MW: 789.37
-  scale: 0.363
+  scale: 0.368
 - ID: F015
   SMILES: O=C(NCCOCC1=C(C(OCC)=O)C(C2=CC=CC=C2Cl)C(C(OC)=O)=C(C)N1)C3=CC=C(N4N/C(N/C4=C5C(C=CC=C\5)=O)=C6C=CC=CC\6=O)C=C3
   MW: 764.24
-  scale: 0.435
+  scale: 0.44
 - ID: F016
   SMILES: O=C(OC(C)(C)C)CNC(C1=CC=CC=C1)=O
   MW: 235.28
-  scale: 1.215
+  scale: 1.229
 - ID: F017
   SMILES: O=C(OC)[C@@H](CC1=CC=C(O)C=C1)NC(C2=CC=CC=C2)=O
   MW: 299.33
-  scale: 1.388
+  scale: 1.404
 - ID: F018
   SMILES: O=C(OC(C)(C)C)[C@@H](CC1=CC=CC=C1)NC(C2=CC=CC=C2)=O
   MW: 325.41
-  scale: 1.291
+  scale: 1.306
 - ID: F019
   SMILES: O=C(C1=CC=CC=C1)NC(C(OC)=O)CC2=CNC3=C2C=CC=C3
   MW: 322.36
-  scale: 1.128
+  scale: 1.141
 - ID: F020
   SMILES: O=C(OC)[C@H](CCSC)NC(C1=CC=CC=C1)=O
   MW: 267.35
-  scale: 1.188
+  scale: 1.202
 - ID: F021
   SMILES: O=C(OC)[C@@H]([C@@H](C)CC)NC(C1=CC=CC=C1)=O
   MW: 249.31
-  scale: 1.507
+  scale: 1.525
 - ID: F022
   SMILES: O=C(OC)[C@@H](CCC(OC)=O)NC(C1=CC=CC=C1)=O
   MW: 279.29
-  scale: 1.061
+  scale: 1.074
 - ID: F023
   SMILES: C[C@H](NC(C1=CC=CC=C1)=O)C(OC(C)C)=O
   MW: 235.28
-  scale: 1.257
+  scale: 1.272
 - ID: F024
   SMILES: CC(C)C[C@H](NC(C1=CC=CC=C1)=O)C(OC)=O
   MW: 249.31
-  scale: 1.369
+  scale: 1.385
 - ID: F025
   SMILES: CC(C)[C@@H](NC(C1=CC=CC=C1)=O)C(OCC2=CC=CC=C2)=O
   MW: 311.38
-  scale: 0.946
+  scale: 0.958
 - ID: F026
   SMILES: C[C@H](CC)[C@H](NC(C1=CC=CC=C1)=O)C(N[C@H](C)C(OC(C)(C)C)=O)=O
   MW: 362.47
-  scale: 1.103
+  scale: 1.116
 - ID: F027
   SMILES: CC(C)(C)OC([C@@H](CC(C)C)NC([C@H](NC(C1=CC=CC=C1)=O)CC2=CC=CC=C2)=O)=O
   MW: 438.57
-  scale: 0.918
+  scale: 0.929
 - ID: F028
   SMILES: O=C(NCC(OC(C)(C)C)=O)[C@@H](CC1=CC=CC=C1)NC(C2=CC=CC=C2)=O
   MW: 382.46
-  scale: 0.91
+  scale: 0.921
 - ID: F029
   SMILES: O=C(NCC(OC(C)(C)C)=O)[C@H](CC1=CC=CC=C1)NC(OCC2=CC=CC=C2)=O
   MW: 412.49
-  scale: 0.895
+  scale: 0.906
 - ID: F030
   SMILES: O=C(NCC(OC(C)(C)C)=O)[C@@H](NC(OC(C)(C)C)=O)CC1=CNC2=C1C=CC=C2
   MW: 417.51
-  scale: 0.795
+  scale: 0.804
 - ID: F031
   SMILES: O=C(NCC(OC(C)(C)C)=O)CNC(OCC2C1=C(C=CC=C1)C3=C2C=CC=C3)=O
   MW: 410.47
-  scale: 0.646
+  scale: 0.653
 - ID: F032
   SMILES: O=C(NCC(OC(C)(C)C)=O)[C@H](C(C)C)NC(OCC2C1=C(C=CC=C1)C3=C2C=CC=C3)=O
   MW: 452.55
-  scale: 0.708
+  scale: 0.717
 - ID: F033
   SMILES: O=C(NCC(OC(C)(C)C)=O)[C@@H](CC1=CC=C(OC(C)(C)C)C=C1)NC(OCC3C2=C(C=CC=C2)C4=C3C=CC=C4)=O
   MW: 572.7
-  scale: 0.615
+  scale: 0.622
 - ID: F034
   SMILES: O=C(NCC(OC(C)(C)C)=O)[C@H](COC(C)(C)C)NC(OCC2C1=C(C=CC=C1)C3=C2C=CC=C3)=O
   MW: 496.6
-  scale: 0.694
+  scale: 0.702
 - ID: F035
   SMILES: O=C(N[C@@H](C(OC)=O)CC(C)C)[C@H](NC(OCC2C1=C(C=CC=C1)C3=C2C=CC=C3)=O)CC4=CC=CC=C4
   MW: 514.62
-  scale: 0.747
+  scale: 0.756
 - ID: F036
   SMILES: O=C(N[C@@H](C(OC(C)(C)C)=O)[C@@H](C)CC)[C@H](CC1=CC=CC=C1)NC(OCC3C2=C(C=CC=C2)C4=C3C=CC=C4)=O
   MW: 556.7
-  scale: 0.721
+  scale: 0.73
 - ID: G001
   SMILES: CC(C1=CC(C)=CC=C1N2C)(C(C=C(C3=CC=CC=C3)O4)C5=C4C(C=CC=C6)=C6OC5=O)C2=O
   MW: 449.51
-  scale: 1.048
+  scale: 1.06
 - ID: G002
   SMILES: CC(C1=CC(C)=CC=C1N2C)(C(C=C(C3=CC=CC=C3)O4)C5=C4C(C=C(C)C=C6)=C6OC5=O)C2=O
   MW: 463.53
-  scale: 0.952
+  scale: 0.963
 - ID: G003
   SMILES: CC(C1=CC(C)=CC=C1N2C)(C(C=C(C3=CC=CC=C3)O4)C5=C4C(C=CC(C)=C6)=C6OC5=O)C2=O
   MW: 463.53
-  scale: 1.016
+  scale: 1.028
 - ID: G004
   SMILES: O=C(CC(C#CC1=CC=CC=C1)C2C=C(C3=CC=CC=C3)C(O2)=O)C4=CC=CC=C4
   MW: 392.45
-  scale: 0.99
+  scale: 1.001
 - ID: G005
   SMILES: O=C(CC(C#CCCCCC)C1C=C(C2=CC=CC=C2)C(O1)=O)C3=CC=CC=C3
   MW: 386.49
-  scale: 0.766
+  scale: 0.775
 - ID: G006
   SMILES: O=C1C=CC=CN1C(/C=C(COC)/C2=CC=CC=C2)=C3C(C=CC=C4)=C4NC/3=O
   MW: 384.44
-  scale: 1.242
+  scale: 1.257
 - ID: G007
   SMILES: O=C1C=CC=CN1C(/C=C(C)/C2=CC=CC=C2)=C3C(C=CC=C4)=C4N(CC5=CC=CC=C5)C/3=O
   MW: 444.53
-  scale: 0.929
+  scale: 0.94
 - ID: G008
   SMILES: O=C(OCC1=CC=CC=C1)CCC(C2=CC=CC=C2)C3=CC=NC=C3
   MW: 331.42
-  scale: 0.92
+  scale: 0.931
 - ID: G009
   SMILES: O=C(NC1=CC=C(Cl)C=C1)CCC(C2=CC=CC=C2)C3=NC=CC=C3
   MW: 350.85
-  scale: 0.922
+  scale: 0.933
 - ID: G010
   SMILES: O=C(NC1=CC=C(C(C=CC=C2)=C2O3)C3=C1)CCC(C4=CC=CC=C4)C5=NC=CC=C5
   MW: 406.49
-  scale: 0.761
+  scale: 0.77
 - ID: G011
   SMILES: O=C1N(CC2=CC=CC=C2)C3=CC=CC=C3[C@]1([C@@H]4OC(C(C5=CC=CC(Cl)=C5)=C4)=O)O
   MW: 431.88
-  scale: 1.051
+  scale: 1.064
 - ID: G012
   SMILES: O=C1N(CC2=CC=CC=C2)C3=CC=C(C)C=C3[C@]1([C@@H]4OC(C(C5=CC=CC=C5)=C4)=O)O
   MW: 411.46
-  scale: 1.072
+  scale: 1.084
 - ID: G013
   SMILES: O=C1N(CC2=CC=CC=C2)C3=CC=C(OC)C=C3[C@]1([C@@H]4OC(C(C5=CC=CC=C5)=C4)=O)O
   MW: 427.46
-  scale: 0.985
+  scale: 0.997
 - ID: G014
   SMILES: O=C1NC2=C(C=CC=C2Cl)[C@@]1([C@H](C=C3C4=CC=CC=C4)OC3=O)C(C#N)C#N
   MW: 389.8
-  scale: 1.17
+  scale: 1.183
 - ID: G015
   SMILES: O=C1NC2=C(C=CC=C2)[C@@]1([C@H](C=C3C4=CC=C(Cl)C=C4)OC3=O)C(C#N)C#N
   MW: 389.8
-  scale: 1.0
+  scale: 1.011
 - ID: G016
   SMILES: O=C1NC2=C(C=C(F)C=C2)[C@@]1([C@H](C=C3C4=CC=CC=C4)OC3=O)C(C#N)C#N
   MW: 373.34
-  scale: 1.123
+  scale: 1.136
 - ID: G017
   SMILES: O=C1N(CC2=CC=CC=C2)C3=CC=CC(Br)=C3[C@]1(O)[C@@]4(C(OCC5=CC=CC=C5)=O)CC(C=CC=C6)=C6O4
   MW: 570.44
-  scale: 0.82
+  scale: 0.829
 - ID: G018
   SMILES: O=C1N(C(C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)C5=CC=CC=C5[C@]1(O)[C@@]6(C(OC)=O)CC(C=CC=C7)=C7O6
   MW: 567.64
-  scale: 0.865
+  scale: 0.875
 - ID: G019
   SMILES: O=C(NCCN1CCOCC1)C2(C#N)CC(C(C3=CC=C(Cl)C=C3)N2C4=CC=C(Cl)C=C4)C5=CC=CC=C5
   MW: 549.5
-  scale: 0.763
+  scale: 0.772
 - ID: G020
   SMILES: O=C(OC1=C(C)C=CC=C1C)[C@]2(C#N)C[C@@H]([C@@H](C3=CC=CC=C3)N2C4=CC=C(Br)C=C4)C5=CC=CC=C5
   MW: 551.48
-  scale: 0.897
+  scale: 0.908
 - ID: G021
   SMILES: O=C1C(C(C2=CC=CC=C2)([H])/C=C(OCC3=CC=CC=C3)/C(OC4=C(C)C=CC=C4C)=O)(O)C5=CC([N+]([O-])=O)=CC=C5N1CC6=CC=CC=C6
   MW: 654.72
-  scale: 0.679
+  scale: 0.687
 - ID: G022
   SMILES: BrC(C=C1)=CC=C1C([C@](C2=CC=CC=C2)(C(OC)=O)C3=CN(CC4=CC=CC=C4)C5=CC(F)=CC=C53)NC(C6=CC=CC=C6)C7=CC=CC=C7
   MW: 723.69
-  scale: 0.754
+  scale: 0.763
 - ID: G023
   SMILES: CN1C2=CC=CC=C2C([C@@](C3=CC=CC=C3)(C(OC)=O)C(C4=CC=C(C(F)(F)F)C=C4)NC(C5=CC=CC=C5)C6=CC=CC=C6)=C1
   MW: 618.7
-  scale: 0.952
+  scale: 0.963
 - ID: G024
   SMILES: CN1C2=CC=CC=C2C([C@](C3=CC=CC(OC)=C3)(C(OC)=O)C(C4=CC=C(C(F)(F)F)C=C4)NCC5=CC=CC=C5)=C1
   MW: 572.63
-  scale: 0.9
+  scale: 0.91
 - ID: G025
   SMILES: CN1C2=CC=C(C)C=C2[C@]([C@@H](C#CC3=CC=CC=C3)C4=C(C)NC5=C4C=C(C(C)C)C=C5)([H])C1=O
   MW: 446.59
-  scale: 1.006
+  scale: 1.018
 - ID: G026
   SMILES: CN1C2=CC=C(C)C=C2[C@]([C@@H](C#CC3=CC=C(Cl)C=C3)C4=C(C)NC5=C4C=CC=C5)([H])C1=O
   MW: 438.96
-  scale: 0.857
+  scale: 0.867
 - ID: G027
   SMILES: CN1C2=CC=CC=C2[C@]([C@@H](C#CC3=CC=CC=C3)C4=C(C)NC5=C4C=CC=C5)([H])C1=O
   MW: 390.49
-  scale: 1.002
+  scale: 1.014
 - ID: G028
   SMILES: CN1C2=CC=C(C)C=C2[C@]([C@@H](C#CCCCCC)C3=C(C)NC4=C3C=CC=C4)([H])C1=O
   MW: 398.55
-  scale: 0.86
+  scale: 0.87
 - ID: G029
   SMILES: CN1C2=CC=C(OCC3=CC=CC=C3)C=C2[C@]([C@@H](C#CC4=CC=CC=C4)C5=C(C)NC6=C5C=CC=C6)([H])C1=O
   MW: 496.61
-  scale: 0.652
+  scale: 0.659
 - ID: G030
   SMILES: O=C(OC(C)(C)C)[C@@](C1=CC=CC=C1)(OCC2=CC=C(Br)C=C2)[C@@H](C3=C(C)NC4=C3C=CC=C4)C#CC5=C(F)C=CC=C5
   MW: 638.58
-  scale: 0.724
+  scale: 0.733
 - ID: G031
   SMILES: O=C(OC(C)(C)C)[C@@](C1=CC=CC=C1)(OCC2=CC=CO2)[C@@H](C3=C(C)NC4=C3C=CC=C4)C#CC5=CC=CC=C5
   MW: 531.65
-  scale: 0.819
+  scale: 0.829
 - ID: G032
   SMILES: O=C(OC(C)(C)C)[C@@](C1=CC=CC=C1)(OCC2=CC=C(Br)C=C2)[C@@H](C3=C(C)NC4=C3C=C(SC5=CC=C(C)C=C5)C=C4)C#CC6=CC=CC=C6
   MW: 742.78
-  scale: 0.83
+  scale: 0.84
 - ID: G033
   SMILES: O=C(OC(C)(C)C)[C@@](C1=CC=CC=C1)(OCC=C)[C@@H](C2=C(C)NC3=C2C=CC=C3)C#CC4=CC=CC=C4
   MW: 491.63
-  scale: 0.915
+  scale: 0.926
 - ID: G034
   SMILES: CN1C2=CC=CC=C2C([C@](C3=CC=CC=C3)(C(OC)=O)C(C4=CC=C(Br)C=C4)NC(C5=CC=CC=C5)C6=CC=CC=C6)=C1
   MW: 629.6
-  scale: 1.035
+  scale: 1.047
 - ID: G035
   SMILES: CN1C2=CC=CC=C2C3=C1CN[C@H](C4=CC=C(I)C=C4)[C@]3(C(OC)=O)C5=CC=CC=C5
   MW: 522.39
-  scale: 1.025
+  scale: 1.037
 - ID: G036
   SMILES: O=C1N(C2=CC(C)=CC=C2)[C@]3(C(C=CC=C4)=C4N(CC5=CC=CC=C5)C3=O)[C@@]1(C)N6C(C)=CC(C)=N6
   MW: 476.58
-  scale: 0.887
+  scale: 0.897
 - ID: G037
   SMILES: O=C1N(C2=CC=CC=C2)[C@]3(C(C=CC(Cl)=C4)=C4N(CC5=CC=CC=C5)C3=O)[C@@]1(C)N6C(C)=CC(C)=N6
   MW: 497.0
-  scale: 0.879
+  scale: 0.89
 - ID: G038
   SMILES: CC1=C(/C=C/C2=CC(OCC3=CC=CC(C#N)=C3)=C(CNCCO)C=C2Cl)C=CC=C1C4=CC=CC=C4
   MW: 509.05
-  scale: 0.581
+  scale: 0.587
 - ID: G039
   SMILES: CC1=C(/C=C/C2=CC(OCC3=CC=CC(C#N)=C3)=C(CNC(CO)C(O)=O)C=C2Cl)C=CC=C1C4=CC=CC=C4
   MW: 553.06
-  scale: 0.572
+  scale: 0.579
 - ID: G040
   SMILES: CC1=C(/C=C/C2=CC(OCC3=CC=CC(C#N)=C3)=C(CNC(C)(C)C(O)=O)C=C2Cl)C=CC=C1C4=CC=CC=C4
   MW: 551.09
-  scale: 0.573
+  scale: 0.579
 - ID: G041
   SMILES: CC1=C(/C=C/C2=CC(OCC3=CC=CC(C#N)=C3)=C(CNCC(O)=O)C=C2Cl)C=CC=C1C4=CC5=C(OCCO5)C=C4
   MW: 581.07
-  scale: 0.499
+  scale: 0.505
 - ID: G042
   SMILES: CC1=C(C2CC2C3=CC(OCC4=CN=CC(C#N)=C4)=C(CNC(CO)C(O)=O)C=C3F)C=CC=C1C5=CC6=C(OCCO6)C=C5
   MW: 609.65
-  scale: 0.513
+  scale: 0.519
 - ID: G043
   SMILES: CC1=C(C2CC2C3=CC(OCC4=CN=CC(C#N)=C4)=C(CNC(C(C)O)C(O)=O)C=C3F)C=CC=C1C5=CC6=C(OCCO6)C=C5
   MW: 623.68
-  scale: 0.508
+  scale: 0.514
 - ID: G044
   SMILES: CC1=C(C2CC2C3=CC(OCC4=CN=CC(C#N)=C4)=C(CNCCO)C=C3F)C=CC=C1C5=CC6=C(OCCO6)C=C5
   MW: 565.65
-  scale: 0.526
+  scale: 0.532
 - ID: G045
   SMILES: FC1=C(C2CC2C3=NC(CNCC(CO)O)=CS3)C=CC=C1C4=CC=CC=C4
   MW: 398.5
-  scale: 0.623
+  scale: 0.63
 - ID: G046
   SMILES: '[H][C@]1(N2N=C(C)C=C2C)[C@](O)(C3=CC=CC=C3)C4=CC=CC=C4N(CC5=CC=CC=C5)C1=O'
   MW: 423.52
-  scale: 0.958
+  scale: 0.969
 - ID: G047
   SMILES: Br[C@]1(N2N=C(C)C=C2C)[C@](O)(C3=CC=CC=C3)C4=CC=CC=C4N(CC5=CC=CC=C5)C1=O
   MW: 502.41
-  scale: 0.99
+  scale: 1.002
 - ID: G048
   SMILES: O[C@@]([C@]1(C2=CC=CC=C2)N3N=CC(Br)=C3)(C4=CC=CC=C4)C5=CC=CC=C5N(CC6=CC=CC=C6)C1=O
   MW: 550.46
-  scale: 0.994
+  scale: 1.005
 - ID: G049
   SMILES: O=C1[C@](N2N=CC=C2)(C3=CC=CC=C3)[C@@H](NC4=CC=C(C)C=C4)C5=CC=CC(Br)=C5O1
   MW: 474.36
-  scale: 1.021
+  scale: 1.033
 - ID: G050
   SMILES: O=C1[C@](N2N=CC(Br)=C2)(C3=CC=CC=C3)[C@@H](NC4=CC=C(C)C=C4)C5=CC=CC=C5O1
   MW: 474.36
-  scale: 1.026
+  scale: 1.038
 - ID: G051
   SMILES: O=C1[C@](C2=CC=CC=C2)([C@H](C3=CC=CC=C3O1)NC4=CC=C(C=C4)C)N5N=CC=C5Br
   MW: 474.36
-  scale: 1.023
+  scale: 1.035
 - ID: G052
   SMILES: BrC(C=C1)=CC=C1[C@H](NC2=CC=CC=C2)[C@](C3=CC=CC=C3)(C(OCC)=O)NC(OCC4C(C=CC=C5)=C5C6=C4C=CC=C6)=O
   MW: 661.6
-  scale: 0.75
+  scale: 0.759
 - ID: G053
   SMILES: O=C(OCC=C)[C@]([C@@H](NC1=CC=CC=C1)C2=CC=C(Br)C=C2)(C3=CC=CC=C3)NC(OCC4C(C=CC=C5)=C5C6=C4C=CC=C6)=O
   MW: 673.61
-  scale: 0.676
+  scale: 0.684
 - ID: G054
   SMILES: BrC(C=C1)=CC=C1[C@H](NC2=CC=CC=C2)[C@@](C3=CC=CC=C3)(C(OCC)=O)NC(OC(C)(C)C)=O
   MW: 539.47
-  scale: 1.026
+  scale: 1.038
 - ID: G055
   SMILES: ClC(C=C1)=CC=C1N[C@@H](C2=CC=CC=C2)[C@@](C3=CC=CC=C3)(C(OCC)=O)NC(OC)=O
   MW: 452.94
-  scale: 1.123
+  scale: 1.136
 - ID: G056
   SMILES: O=C(OCCBr)C([C@@H](NC1=CC=CC=C1)C2=CC=CC=C2Br)(NC(OCC3=CC=CC=C3)=O)NC(OCC4=CC=CC=C4)=O
   MW: 725.43
-  scale: 0.642
+  scale: 0.65
 - ID: G057
   SMILES: O=C(OCC)C([C@@H](NC1=CC=CC=C1)C2=CC=CC=C2Br)(NC(OCC3=CC=CC=C3)=O)NC(OCC4=CC=CC=C4)=O
   MW: 646.54
-  scale: 0.647
+  scale: 0.655
 - ID: G058
   SMILES: BrC(C=C1)=CC=C1C(N2C3=CC=C(OC)C=C3)C4(C2=O)OCCCO4
   MW: 404.26
-  scale: 1.144
+  scale: 1.157
 - ID: G059
   SMILES: CC(C=CC=C1)=C1[C@H](NC2=CC=C(OC)C=C2)C3(C(OCC)=O)OCCCO3
   MW: 385.46
-  scale: 1.069
+  scale: 1.081
 - ID: G060
   SMILES: FC(C(C=CC=C1)=C1[C@H](NC2=CC=C(OC)C=C2)C3(C(OCC)=O)OCCCO3)(F)F
   MW: 439.43
-  scale: 1.049
+  scale: 1.061
 - ID: G061
   SMILES: O=C(C(OCC)=O)N(C(C1=O)C2=CC=CC=C2N1C)C(C=C3)=CC=C3C
   MW: 352.39
-  scale: 1.366
+  scale: 1.382
 - ID: G062
   SMILES: O=C(C(OCC)=O)N(C(C1=O)C2=CC(C)=CC=C2N1CC3=CC=CC=C3)C4=CC=CC=C4
   MW: 428.49
-  scale: 0.869
+  scale: 0.88
 - ID: G063
   SMILES: O=C(C(N(C(C1=O)C2=CC=CC=C2N1CC3=CC=CC=C3)C4=CC=CC=C4)=O)OCC5CC5
   MW: 440.5
-  scale: 0.764
+  scale: 0.773
 - ID: H001
   SMILES: O=C(OC(C)(C)C)[C@@H]1C[C@@H](N[C@@H]1C2=CC=CC=C2)C3=CC=CC=C3
   MW: 323.44
-  scale: 1.24
+  scale: 1.255
 - ID: H002
   SMILES: O=C(NCCC)[C@@H]1C[C@@H](N[C@@H]1C2=CC=CC=C2)C3=CC=CC=C3
   MW: 308.43
-  scale: 1.23
+  scale: 1.244
 - ID: H003
   SMILES: O=C(NC1=CC=CC=C1)[C@@H]2C[C@@H](N[C@@H]2C3=CC=CC=C3)C4=CC=CC=C4
   MW: 342.44
-  scale: 1.027
+  scale: 1.039
 - ID: H004
   SMILES: O=C(NC1=CC=C(Cl)C=C1)[C@@H]2C[C@@H](N[C@@H]2C3=CC=CC=C3)C4=CC=CC=C4
   MW: 376.89
-  scale: 0.914
+  scale: 0.924
 - ID: H005
   SMILES: O=C(NCC1=CC=CC=C1)[C@@H]2C[C@@H](N[C@@H]2C3=CC=CC=C3)C4=CC=CC=C4
   MW: 356.47
-  scale: 0.891
+  scale: 0.902
 - ID: H006
   SMILES: O=C(NCC1=CC=C(C(C)(C)C)C=C1)[C@@H]2C[C@@H](N[C@@H]2C3=CC=CC=C3)C4=CC=CC=C4
   MW: 412.58
-  scale: 0.728
+  scale: 0.736
 - ID: H007
   SMILES: O=C(NCCCC1=CC=CC=C1)[C@@H]2C[C@@H](N[C@@H]2C3=CC=CC=C3)C4=CC=CC=C4
   MW: 384.52
-  scale: 0.747
+  scale: 0.756
 - ID: H008
   SMILES: O=C(N(CCCC)CCCC)[C@@H]1C[C@@H](N[C@@H]1C2=CC=CC=C2)C3=CC=CC=C3
   MW: 378.56
-  scale: 1.038
+  scale: 1.05
 - ID: H009
   SMILES: O=C(OC)[C@@H]1C(C2=CC=CC=C2)[C@@H](N[C@@H]1C3=CC=CC=C3)C4=CC=CC=C4
   MW: 357.45
-  scale: 1.206
+  scale: 1.22
 - ID: H010
   SMILES: O=C(OC(C)(C)C)[C@@H]1C[C@@H](N(C)[C@@H]1C2=CC=CC=C2)C3=CC=CC=C3
   MW: 337.46
-  scale: 1.215
+  scale: 1.229
 - ID: H011
   SMILES: O=C(OC)[C@@]1(C)C[C@@H](N[C@@H]1C2=CC=CC=C2)C3=CC=CC=C3
   MW: 295.38
-  scale: 1.258
+  scale: 1.273
 - ID: H012
   SMILES: O=C(OC)[C@@]1(CC(OC)=O)C[C@@H](N[C@@H]1C2=CC=CC=C2)C3=CC=CC=C3
   MW: 353.42
-  scale: 1.203
+  scale: 1.217
 - ID: H013
   SMILES: O=C(C)NC1(C(OC)=O)C[C@@H](N[C@@H]1C2=CC=CC=C2)C3=CC=CC=C3
   MW: 338.41
-  scale: 1.234
+  scale: 1.248
 - ID: H014
   SMILES: O=C1OCC[C@]21C[C@@H](N[C@@H]2C3=CC=CC=C3)C4=CC=CC=C4
   MW: 293.37
-  scale: 1.246
+  scale: 1.261
 - ID: H015
   SMILES: O=C(C1(CCC2)C2[C@@H](N[C@@H]1C3=CC=CC=C3)C4=CC=CC=C4)OC
   MW: 321.42
-  scale: 1.231
+  scale: 1.245
 - ID: H101
   SMILES: O=C(OC(C)(C)C)[C@H]1[C@@H](C2=CC=CC=C2)[C@@H](C3=CC=CC=C3)C1
   MW: 308.42
-  scale: 1.14
+  scale: 1.153
 - ID: H102
   SMILES: O=C(NC1=CC=CC=C1)[C@H]2[C@@H](C3=CC=CC=C3)[C@@H](C4=CC=CC=C4)C2
   MW: 327.43
-  scale: 1.002
+  scale: 1.014
 - ID: H103
   SMILES: O=C(NCCCC1=CC=CC=C1)[C@H]2[C@@H](C3=CC=CC=C3)[C@@H](C4=CC=CC=C4)C2
   MW: 369.51
-  scale: 0.791
+  scale: 0.8
 - ID: J001
   SMILES: O=C(C/1C(OCC)=O)C2(CC2)C1=C(C3=CC=C(C)C=C3)\OCC4=CC=CC=C4
   MW: 376.45
-  scale: 1.258
+  scale: 1.273
 - ID: J002
   SMILES: O=C(C1=CC=C(C)C=C1)C(C2C(OCC)=O)C3(C2=O)CC3
   MW: 286.33
-  scale: 1.428
+  scale: 1.444
 - ID: J003
   SMILES: O=C1C2=C(OCC)OC(C3=CC=C(C)C=C3)=C2C14CC4
   MW: 268.31
-  scale: 1.275
+  scale: 1.29
 - ID: J004
   SMILES: O=C(C/1C(OCC)=O)C2(CC2)C1=C(C3=CC=C(C)C=C3)\OC/C=C(CC/C=C(C)\C)\C
   MW: 422.57
-  scale: 0.786
+  scale: 0.795
 - ID: J005
   SMILES: O=C(NC(CC1=CNC2=C1C=CC=C2)C(OC)=O)C3(CC3)/C(CC(OCC)=O)=C(C4=CN(C)C5=C4C=CC=C5)\C6=CC=C(C)C=C6
   MW: 617.75
-  scale: 0.644
+  scale: 0.651
 - ID: J006
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=C(C)N(C)C5=C4C=CC=C5
   MW: 413.52
-  scale: 0.962
+  scale: 0.974
 - ID: J007
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C(C)=CC=C5
   MW: 413.52
-  scale: 0.973
+  scale: 0.984
 - ID: J008
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=CC(C)=C5
   MW: 413.52
-  scale: 1.074
+  scale: 1.086
 - ID: J009
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=C(C)C=C5
   MW: 413.52
-  scale: 1.013
+  scale: 1.025
 - ID: J010
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=C(Cl)C=C5
   MW: 433.94
-  scale: 1.013
+  scale: 1.025
 - ID: J011
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C(Cl)=CC=C5
   MW: 433.94
-  scale: 0.973
+  scale: 0.984
 - ID: J012
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=CC=C5C
   MW: 413.52
-  scale: 0.984
+  scale: 0.996
 - ID: J013
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=C(I)C=C5
   MW: 525.39
-  scale: 1.013
+  scale: 1.025
 - ID: J014
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=C(OC)C=C5
   MW: 429.52
-  scale: 0.982
+  scale: 0.993
 - ID: J015
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=CC(F)=C5
   MW: 417.48
-  scale: 1.074
+  scale: 1.086
 - ID: J016
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=CC=C5F
   MW: 417.48
-  scale: 0.984
+  scale: 0.996
 - ID: J017
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C(F)=CC=C5
   MW: 417.48
-  scale: 0.973
+  scale: 0.984
 - ID: J018
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=C(F)C=C5
   MW: 417.48
-  scale: 1.013
+  scale: 1.025
 - ID: J019
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=C(Br)C=C5
   MW: 478.39
-  scale: 1.013
+  scale: 1.025
 - ID: J020
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=CC(Br)=C5
   MW: 478.39
-  scale: 1.074
+  scale: 1.086
 - ID: J021
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=C(C)C=C3)/C4=CN(C)C5=C4C=CC=C5Br
   MW: 478.39
-  scale: 0.984
+  scale: 0.996
 - ID: J022
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC=CC=C3)/C4=CN(C)C5=C4C=CC=C5
   MW: 385.46
-  scale: 1.176
+  scale: 1.19
 - ID: J023
   SMILES: O=C(C/12CC2)C(C(OCC)=O)C1=C(C3=CC(C)=CC=C3)/C4=CN(C)C5=C4C=CC=C5
   MW: 399.49
-  scale: 1.086
+  scale: 1.099
 - ID: J024
   SMILES: O=C(C/1C(OCC)=O)C2(CC2)C1=C(NC(OC(C)(C)C)=O)/C3=CC=C(C)C=C3
   MW: 385.46
-  scale: 1.153
+  scale: 1.167
 - ID: J025
   SMILES: O=C(C/1C(OCC)=O)C2(CC2)C1=C(NC3=CC=C(C(F)(F)F)C=C3)/C4=CC=C(C)C=C4
   MW: 429.44
-  scale: 0.95
+  scale: 0.961
 - ID: J026
   SMILES: O=C(C1=CC=CC=C1)C2C3(CCCCC3)C(C2C(OCC)=O)=O
   MW: 314.38
-  scale: 1.473
+  scale: 1.49
 - ID: J027
   SMILES: O=C(C1=CC=CC=C1)C2C(C)(C)C(C2C(OCC)=O)=O
   MW: 274.32
-  scale: 1.156
+  scale: 1.17
 - ID: J028
   SMILES: O=C(C1=CC=C(C=CC=C2)C2=C1)C3C4(CC4)C(C3C(OCC)=O)=O
   MW: 322.36
-  scale: 1.294
+  scale: 1.31
 - ID: J029
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 423.47
-  scale: 0.894
+  scale: 0.904
 - ID: J030
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC=CC=C3N4C)C4=O)N(C)C2=O
   MW: 347.37
-  scale: 1.171
+  scale: 1.185
 - ID: J031
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC=CC=C3N4CC=C)C4=O)N(C)C2=O
   MW: 373.41
-  scale: 0.965
+  scale: 0.976
 - ID: J032
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC=CC=C3N4CC#C)C4=O)N(C)C2=O
   MW: 371.4
-  scale: 1.011
+  scale: 1.023
 - ID: J033
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC(F)=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 441.46
-  scale: 0.887
+  scale: 0.897
 - ID: J034
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC(Br)=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 502.37
-  scale: 0.887
+  scale: 0.897
 - ID: J035
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC(OC)=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 453.5
-  scale: 0.877
+  scale: 0.887
 - ID: J036
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=C(F)C=C(F)C=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 459.45
-  scale: 0.885
+  scale: 0.895
 - ID: J037
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=C(Br)C(C)=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 516.4
-  scale: 0.879
+  scale: 0.889
 - ID: J038
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=C(Br)C=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 502.37
-  scale: 0.886
+  scale: 0.896
 - ID: J039
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=C(Cl)C=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 457.92
-  scale: 0.886
+  scale: 0.896
 - ID: J040
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC([N+]([O-])=O)=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 468.47
-  scale: 0.872
+  scale: 0.882
 - ID: J041
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC=CC(C)=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 437.5
-  scale: 0.848
+  scale: 0.858
 - ID: J042
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC=CC([N+]([O-])=O)=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 468.47
-  scale: 0.845
+  scale: 0.855
 - ID: J043
   SMILES: O=C(C(NC1=CC=C(C)C=C1)=C2C(C3=CC=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 437.5
-  scale: 0.801
+  scale: 0.811
 - ID: J044
   SMILES: O=C(C(NC1=CC=C(Br)C=C1)=C2C(C3=CC=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 502.37
-  scale: 0.801
+  scale: 0.811
 - ID: J045
   SMILES: O=C(C(NC1=CC=C(Cl)C=C1)=C2C(C3=CC=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 457.92
-  scale: 0.801
+  scale: 0.811
 - ID: J046
   SMILES: O=C(C(NC1=CC=C(F)C=C1)=C2C(C3=CC=CC=C3N4CC5=CC=CC=C5)C4=O)N(C)C2=O
   MW: 441.46
-  scale: 0.801
+  scale: 0.811
 - ID: J047
   SMILES: O=C(C(NC1=CC=CC=C1)=C2C(C3=CC=CC=C3N4CC5=CC=CC=C5)C4=O)N(CC#C)C2=O
   MW: 447.49
-  scale: 0.897
+  scale: 0.907
 - ID: J048
   SMILES: FC(C(C=C1)=CC=C1C2=C(C3=CC=CC=C3)NC4=CC=CC=C42)(F)F
   MW: 337.34
-  scale: 1.206
+  scale: 1.22
 - ID: J049
   SMILES: FC(C(C=C1)=CC=C1C2=C(C3=CC=C(C)C=C3)NC4=CC=CC=C42)(F)F
   MW: 351.37
-  scale: 1.195
+  scale: 1.209
 - ID: J050
   SMILES: FC(C(C=C1)=CC=C1C2=C(C3=CC=C(CC)C=C3)NC4=CC=CC=C42)(F)F
   MW: 365.4
-  scale: 1.219
+  scale: 1.233
 - ID: J051
   SMILES: FC(C(C=C1)=CC=C1C2=C(C3=CC=C(OC)C=C3)NC4=CC=CC=C42)(F)F
   MW: 367.37
-  scale: 1.219
+  scale: 1.233
 - ID: J052
   SMILES: FC(C=C1)=CC=C1C2=C(C3=CC=C(C(F)(F)F)C=C3)C4=CC=CC=C4N2
   MW: 355.33
-  scale: 1.195
+  scale: 1.209
 - ID: J053
   SMILES: ClC(C=C1)=CC=C1C2=C(C3=CC=C(C(F)(F)F)C=C3)C4=CC=CC=C4N2
   MW: 371.79
-  scale: 1.195
+  scale: 1.209
 - ID: J054
   SMILES: BrC(C=C1)=CC=C1C2=C(C3=CC=C(C(F)(F)F)C=C3)C4=CC=CC=C4N2
   MW: 416.24
-  scale: 1.195
+  scale: 1.209
 - ID: J055
   SMILES: FC(C(C=C1)=CC=C1C2=C(C3=CC=C(C(F)(F)F)C=C3)NC4=CC=CC=C42)(F)F
   MW: 405.34
-  scale: 1.049
+  scale: 1.061
 - ID: J056
   SMILES: FC(C(C=C1)=CC=C1C2=C(C3=CC=C(C(OC)=O)C=C3)NC4=CC=CC=C42)(F)F
   MW: 395.38
-  scale: 0.988
+  scale: 1.0
 - ID: J057
   SMILES: FC(C(C=C1)=CC=C1C2=C(C3=CC=CC(C)=C3)NC4=CC=CC=C42)(F)F
   MW: 351.37
-  scale: 1.24
+  scale: 1.254
 - ID: J058
   SMILES: ClC1=CC(C2=C(C3=CC=C(C(F)(F)F)C=C3)C4=CC=CC=C4N2)=CC=C1
   MW: 371.79
-  scale: 1.24
+  scale: 1.254
 - ID: J059
   SMILES: FC(C(C=C1)=CC=C1C2=C(C3=CC=CC=C3)NC4=CC=C(C)C=C42)(F)F
   MW: 351.37
-  scale: 1.192
+  scale: 1.206
 - ID: J060
   SMILES: FC(C(C=C1)=CC=C1C2=C(C3=C(C=CC=C4)C4=CC=C3)NC5=CC=CC=C52)(F)F
   MW: 387.4
-  scale: 1.036
+  scale: 1.048
 - ID: J061
   SMILES: FC(C(C=C1)=CC=C1C2=C(C3=CC=CS3)NC4=CC=CC=C42)(F)F
   MW: 343.37
-  scale: 1.215
+  scale: 1.229
 - ID: J062
   SMILES: O=C(C(C=C1)=CC=C1C2=C(C3=CC=C([N+]([O-])=O)C=C3)C4=CC=CC=C4N2)OC
   MW: 372.38
-  scale: 0.98
+  scale: 0.991
 - ID: J063
   SMILES: O=C(C(C=C1)=CC=C1C2=C(C3=CC=C(C(OC)=O)C=C3)C4=CC=CC=C4N2)OC
   MW: 385.42
-  scale: 0.97
+  scale: 0.982
 - ID: J064
   SMILES: O=C(C1=CC=CC=C1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 394.47
-  scale: 0.968
+  scale: 0.979
 - ID: J065
   SMILES: O=C(C1=CC=C(C)C=C1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 408.5
-  scale: 0.976
+  scale: 0.987
 - ID: J066
   SMILES: O=C(C1=CC=C(F)C=C1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 412.46
-  scale: 0.976
+  scale: 0.987
 - ID: J067
   SMILES: O=C(C1=CC=C(Cl)C=C1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 428.92
-  scale: 0.976
+  scale: 0.987
 - ID: J068
   SMILES: O=C(C1=CC=C(Br)C=C1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 473.37
-  scale: 0.976
+  scale: 0.987
 - ID: J069
   SMILES: O=C(C1=CC=C([N+]([O-])=O)C=C1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 439.47
-  scale: 1.004
+  scale: 1.015
 - ID: J070
   SMILES: O=C(C1=CC=C(C(F)(F)F)C=C1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 462.47
-  scale: 0.966
+  scale: 0.978
 - ID: J071
   SMILES: O=C(C1=CC=CC(Br)=C1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 473.37
-  scale: 0.96
+  scale: 0.971
 - ID: J072
   SMILES: O=C(C1=CC=CC=C1Cl)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 428.92
-  scale: 0.999
+  scale: 1.011
 - ID: J073
   SMILES: O=C(C1=COC=C1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 384.43
-  scale: 1.102
+  scale: 1.115
 - ID: J074
   SMILES: O=C(C1=CSC=C1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 400.5
-  scale: 1.102
+  scale: 1.115
 - ID: J075
   SMILES: O=C(C1=CC=C(C=CC=C2)C2=C1)C3=C(OCC)OC(C4=CC=CC=C4)=C3/C=C/C5=CC=CC=C5
   MW: 444.53
-  scale: 0.99
+  scale: 1.002
 - ID: J076
   SMILES: O=C(C1CC1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 358.44
-  scale: 1.02
+  scale: 1.032
 - ID: J077
   SMILES: O=C(C1CCCCC1)C2=C(OCC)OC(C3=CC=CC=C3)=C2/C=C/C4=CC=CC=C4
   MW: 400.52
-  scale: 0.968
+  scale: 0.979
 - ID: J078
   SMILES: O=C(C1=CC=C(Br)C=C1)C2=C(OCC)OC(C3=CC=C(F)C=C3)=C2/C=C/C4=CC=CC=C4
   MW: 491.36
-  scale: 0.956
+  scale: 0.968
 - ID: J079
   SMILES: O=C(C1=CC=C(Br)C=C1)C2=C(OCC)OC(C3=CC=C(Cl)C=C3)=C2/C=C/C4=CC=CC=C4
   MW: 507.81
-  scale: 0.956
+  scale: 0.968
 - ID: J080
   SMILES: O=C(C1=CC=C(Br)C=C1)C2=C(OCC)OC(C3=CC=C(Br)C=C3)=C2/C=C/C4=CC=CC=C4
   MW: 552.26
-  scale: 0.956
+  scale: 0.968
 - ID: J101
   SMILES: O=C(C1=CC=C(Br)C=C1)C2=C(OCC)OC(C3=CC=C(C)C=C3)=C2/C=C/C4=CC=CC=C4
   MW: 487.39
-  scale: 0.956
+  scale: 0.968
 - ID: J102
   SMILES: O=C(C1=CC=C(Br)C=C1)C2=C(OCC)OC(C3=CC=C(OC)C=C3)=C2/C=C/C4=CC=CC=C4
   MW: 503.39
-  scale: 1.058
+  scale: 1.07
 - ID: J103
   SMILES: O=C(C1=CC=C(Br)C=C1)C2=C(OCC)OC(C3=CC=CC=C3F)=C2/C=C/C4=CC=CC=C4
   MW: 491.36
-  scale: 1.019
+  scale: 1.031
 - ID: J104
   SMILES: O=C(C1=CC=C(Br)C=C1)C2=C(OCC)OC(C3=CC=CC(C)=C3)=C2/C=C/C4=CC=CC=C4
   MW: 487.39
-  scale: 1.086
+  scale: 1.099
 - ID: J105
   SMILES: O=C(C1=CC=C(Br)C=C1)C2=C(OCC)OC(C3=CC=C(C(OC)=O)C=C3)=C2/C=C/C4=CC=CC=C4
   MW: 531.4
-  scale: 0.933
+  scale: 0.944
 - ID: J106
   SMILES: O=C([C@@H](C1=CC=C(Cl)C=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=CC=C3)NC4=CC(Br)=CC=C4
   MW: 584.74
-  scale: 1.045
+  scale: 1.057
 - ID: J107
   SMILES: O=C([C@@H](C1=CC=C(Br)C=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=CC=C3)NC4=CC(Br)=CC=C4
   MW: 629.19
-  scale: 1.045
+  scale: 1.057
 - ID: J108
   SMILES: O=C([C@@H](C1=CC=C(F)C=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=CC=C3)NC4=CC(Br)=CC=C4
   MW: 568.28
-  scale: 1.045
+  scale: 1.057
 - ID: J109
   SMILES: O=C([C@@H](C1=CC=C(C(F)(F)F)C=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=CC=C3)NC4=CC(Br)=CC=C4
   MW: 618.29
-  scale: 0.83
+  scale: 0.84
 - ID: J110
   SMILES: O=C([C@@H](C1=CC(OC)=CC=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=CC=C3)NC4=CC(Br)=CC=C4
   MW: 580.32
-  scale: 1.048
+  scale: 1.06
 - ID: J111
   SMILES: O=C([C@@H](C1=CC(Br)=CC=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=CC=C3)NC4=CC(Br)=CC=C4
   MW: 629.19
-  scale: 1.02
+  scale: 1.032
 - ID: J112
   SMILES: O=C([C@@H](C1=C(Cl)C=CC=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=CC=C3)NC4=CC(Br)=CC=C4
   MW: 584.74
-  scale: 1.02
+  scale: 1.032
 - ID: J113
   SMILES: O=C([C@@H](C1=C(F)C=CC=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=CC=C3)NC4=CC(Br)=CC=C4
   MW: 568.28
-  scale: 1.02
+  scale: 1.032
 - ID: J114
   SMILES: O=C([C@@H](C1=CC(C=CC=C2)=C2C=C1)[C@@H](NC3=CC=CC(Br)=C3)C4=CC=CC=C4)NC5=CC(Br)=CC=C5
   MW: 600.35
-  scale: 0.938
+  scale: 0.949
 - ID: J115
   SMILES: O=C([C@@H](C1=CC=CC=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=C(C)C=C3)NC4=CC(Br)=CC=C4
   MW: 564.32
-  scale: 1.028
+  scale: 1.04
 - ID: J116
   SMILES: O=C([C@@H](C1=CC=CC=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=C(Cl)C=C3)NC4=CC(Br)=CC=C4
   MW: 584.74
-  scale: 1.028
+  scale: 1.04
 - ID: J117
   SMILES: O=C([C@@H](C1=CC=CC=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=C(F)C=C3)NC4=CC(Br)=CC=C4
   MW: 568.28
-  scale: 1.028
+  scale: 1.04
 - ID: J118
   SMILES: O=C([C@@H](C1=CC=CC=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC=C(C(F)(F)F)C=C3)NC4=CC(Br)=CC=C4
   MW: 618.29
-  scale: 1.065
+  scale: 1.078
 - ID: J119
   SMILES: O=C([C@@H](C1=CC=CC=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=CC(Br)=CC=C3)NC4=CC(Br)=CC=C4
   MW: 629.19
-  scale: 1.02
+  scale: 1.032
 - ID: J120
   SMILES: O=C([C@@H](C1=CC=CC=C1)[C@@H](NC2=CC=CC(Br)=C2)C3=C(Br)C=C(Cl)C=C3)NC4=CC(Br)=CC=C4
   MW: 663.63
-  scale: 0.908
+  scale: 0.918
 - ID: J121
   SMILES: O=C([C@@H](C1=CC=CC=C1)[C@@H](NC2=CC=CC=C2)C3=C(Br)C=CC=C3)NC4=CC=CC=C4
   MW: 471.4
-  scale: 1.036
+  scale: 1.048
 - ID: J122
   SMILES: O=C([C@@H](C1=CC=CC=C1)[C@@H](NC2=CC=CC(C)=C2)C3=CC=CC=C3)NC4=CC(C)=CC=C4
   MW: 420.56
-  scale: 1.03
+  scale: 1.042
 - ID: J123
   SMILES: O=C([C@@H](C1=CC=CC=C1)[C@@H](NC2=CC=C(Cl)C=C2)C3=CC=CC=C3)NC4=CC=C(Cl)C=C4
   MW: 461.39
-  scale: 0.877
+  scale: 0.887
 - ID: J124
   SMILES: O=C([C@@H](C1=CC=CC=C1)[C@@H]2C3=CC=CC=C3N(C)C(N2)=O)NC4=CC(Br)=CC=C4
   MW: 450.34
-  scale: 0.976
+  scale: 0.987
 - ID: J125
   SMILES: O=C([C@@H](C1=CC=CC=C1)C2C(C=CC=C3)=C3OC(C=CC=C4)=C4N2)NC5=CC=C(Br)C=C5
   MW: 485.38
-  scale: 0.848
+  scale: 0.858
 - ID: J126
   SMILES: O=C([C@@H](C1=CC=CC=C1)C2C(C=CC=C3)=C3OC(C=CC=C4)=C4N2)NC5=CC=C(Cl)C=C5
   MW: 440.93
-  scale: 0.848
+  scale: 0.858
 - ID: J127
   SMILES: O=C([C@@H](C1=CC=CC=C1)C2C(C=CC=C3)=C3OC(C=CC=C4)=C4N2)NC5=CC=C(F)C=C5
   MW: 424.48
-  scale: 0.848
+  scale: 0.858
 - ID: K001
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(OC)C(OC)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 444.49
-  scale: 0.699
+  scale: 0.708
 - ID: K002
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Cl)C=C2F)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 436.87
-  scale: 0.797
+  scale: 0.806
 - ID: K003
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(OC(F)(F)F)C=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 468.43
-  scale: 0.779
+  scale: 0.788
 - ID: K004
   SMILES: O=C(C1=CC=C(N(CC2=CC(F)=CC=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 402.43
-  scale: 0.838
+  scale: 0.848
 - ID: K005
   SMILES: O=C(C1=CC=C(N(CC2=CC(OC(F)(F)F)=CC=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 468.43
-  scale: 0.8
+  scale: 0.809
 - ID: K006
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(C(F)(F)F)C=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 452.43
-  scale: 0.75
+  scale: 0.759
 - ID: K007
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(C(F)(F)F)C=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 452.43
-  scale: 0.75
+  scale: 0.759
 - ID: K008
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Cl)C(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=NC=CC=C4
   MW: 437.86
-  scale: 0.754
+  scale: 0.763
 - ID: K009
   SMILES: O=C(C1=CC=C(N(CC2=CC(F)=CC(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 420.42
-  scale: 0.757
+  scale: 0.765
 - ID: K010
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(F)C(Cl)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 436.87
-  scale: 0.754
+  scale: 0.763
 - ID: K011
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Cl)C(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC(F)=CC=C4
   MW: 454.86
-  scale: 0.745
+  scale: 0.754
 - ID: K012
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Br)C=C2F)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 481.32
-  scale: 0.797
+  scale: 0.806
 - ID: K013
   SMILES: O=C(C1=CC=C(N(CC2=CC=CC=C2F)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 402.43
-  scale: 0.801
+  scale: 0.811
 - ID: K014
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(F)C(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 420.42
-  scale: 0.754
+  scale: 0.763
 - ID: K015
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Cl)C(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=C(CC)C=C4
   MW: 464.92
-  scale: 0.68
+  scale: 0.688
 - ID: K016
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Cl)C(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC(CC)=CC=C4
   MW: 464.92
-  scale: 0.737
+  scale: 0.745
 - ID: K017
   SMILES: O=C(C1=CC=C(N(CC2=CC=CC(C(F)(F)F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 452.43
-  scale: 0.68
+  scale: 0.688
 - ID: K018
   SMILES: O=C(C1=CC=C(N(CC2=CC(F)=CC=C2Br)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 481.32
-  scale: 0.796
+  scale: 0.805
 - ID: K019
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Cl)C(Cl)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 453.33
-  scale: 0.754
+  scale: 0.763
 - ID: K020
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Br)C(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 481.32
-  scale: 0.754
+  scale: 0.763
 - ID: K021
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Cl)C(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC(C)=CC=C4
   MW: 450.9
-  scale: 0.745
+  scale: 0.754
 - ID: K022
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(F)C=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 402.43
-  scale: 0.835
+  scale: 0.845
 - ID: K023
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Cl)C(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=C(C)C=C4
   MW: 450.9
-  scale: 0.692
+  scale: 0.701
 - ID: K024
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Cl)C(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 436.87
-  scale: 0.754
+  scale: 0.763
 - ID: K025
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(C(C)C)C=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=CC=C4
   MW: 426.52
-  scale: 0.756
+  scale: 0.765
 - ID: K026
   SMILES: O=C(C1=CC=C(N(CC2=CC=C(Cl)C(F)=C2)C(C(O)=O)=C3)C3=C1)NCC4=CC=C(C5CC5)C=C4
   MW: 476.94
-  scale: 0.627
+  scale: 0.634
+- ID: L001
+  SMILES: C=C1CCCCC1(CNS(C2=CC=C(C)C=C2)(=O)=O)C
+  MW: 293.43
+  scale: 1.126
+- ID: L002
+  SMILES: '[H][C@@]1(O)CCCC[C@]1(CNS(C2=CC=C(C)C=C2)(=O)=O)C'
+  MW: 297.42
+  scale: 1.126
+- ID: L003
+  SMILES: O=C(CCC)C(CNS(C1=CC=C(C)C=C1)(=O)=O)(CCC)C
+  MW: 325.47
+  scale: 0.993
+- ID: L004
+  SMILES: O=C(CCC)C(CNS(C1=CC=C(C)C=C1)(=O)=O)(CCC)C2=CC=C(Cl)C=C2
+  MW: 421.99
+  scale: 0.966
+- ID: L005
+  SMILES: O=C(CCC)C(CNS(C1=CC=C(C)C=C1)(=O)=O)(CCC)C2=C(C)C=CC=C2
+  MW: 401.57
+  scale: 0.948
+- ID: L006
+  SMILES: O=C(CCC)[C@@](CNS(C1=CC=C(C)C=C1)(=O)=O)(CCC)C2=CC=C(C=CC=C3)C3=C2
+  MW: 437.61
+  scale: 0.897
+- ID: L007
+  SMILES: O=C(CC)C(CNS(C1=CC=C(C)C=C1)(=O)=O)(CC)C
+  MW: 297.42
+  scale: 1.053
+- ID: L008
+  SMILES: O=C(CCCC)C(CNS(C1=CC=C(C)C=C1)(=O)=O)(CCCC)C
+  MW: 353.53
+  scale: 0.882
+- ID: L009
+  SMILES: O=C(CCCCC)C(CNS(C1=CC=C(C)C=C1)(=O)=O)(CCCCC)C
+  MW: 381.58
+  scale: 0.833
+- ID: L010
+  SMILES: O=C(CCCCCC)C(CNS(C1=CC=C(C)C=C1)(=O)=O)(CCCCCC)C
+  MW: 409.64
+  scale: 0.748
+- ID: L011
+  SMILES: O=C(C1([H])CCCCC1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)(C3CCCCC3)C
+  MW: 405.6
+  scale: 0.891
+- ID: L012
+  SMILES: O=C(C1CC1)C(CNS(C2=CC=C(C)C=C2)(=O)=O)(C3CC3)C
+  MW: 321.44
+  scale: 1.055
+- ID: L013
+  SMILES: O=C(CCC)C(CNS(C1=CC=CC=C1)(=O)=O)(CCC)C
+  MW: 311.45
+  scale: 1.124
+- ID: L014
+  SMILES: O=C(CCC)C(CNS(C1=CC=C(F)C=C1)(=O)=O)(CCC)C
+  MW: 329.44
+  scale: 0.993
+- ID: L015
+  SMILES: O=C(CCC)C(CNS(C1=CC=C(Cl)C=C1)(=O)=O)(CCC)C
+  MW: 345.89
+  scale: 0.993
+- ID: L016
+  SMILES: O=C(CCC)C(CNS(C1=CC=C(Br)C=C1)(=O)=O)(CCC)C
+  MW: 390.34
+  scale: 0.993
+- ID: L017
+  SMILES: O=C(CCC)C(CNS(C1=C(C)C=CC=C1)(=O)=O)(CCC)C
+  MW: 325.47
+  scale: 1.108
+- ID: L018
+  SMILES: O=C(CCC)C(CNS(C1=CC=C(C(F)(F)F)C=C1)(=O)=O)(CCC)C
+  MW: 379.44
+  scale: 0.872
+- ID: L019
+  SMILES: O=C(CCC)C(CNS(C1=CC(Br)=CC=C1)(=O)=O)(CCC)C
+  MW: 390.34
+  scale: 1.084
+- ID: L020
+  SMILES: O=C(CCC)C(CNS(C1=CC(F)=C(F)C=C1)(=O)=O)(CCC)C
+  MW: 347.43
+  scale: 0.996
+- ID: L021
+  SMILES: O=C(CCC)C(CNS(C1=C(F)C=C(F)C=C1)(=O)=O)(CCC)C
+  MW: 347.43
+  scale: 0.981
+- ID: L022
+  SMILES: O=C(CCC)C(CNS(=O)(C1=CC=CS1)=O)(CCC)C
+  MW: 317.48
+  scale: 1.189
+- ID: L023
+  SMILES: O=S(C(C=C1)=CC=C1N2C(C(C=C3)=CC=C3C)=CC(C(F)(F)F)=N2)(NCC(CCC)(C)C(CCC)=O)=O
+  MW: 535.63
+  scale: 0.681
+- ID: L024
+  SMILES: O=S(C(C=C1)=CC=C1C(C(C2=CC=CC=C2)=NO3)=C3C)(NCC(CCC)(C)C(CCC)=O)=O
+  MW: 468.62
+  scale: 0.798
+- ID: L025
+  SMILES: O=S(OC[C@@]1(O2)OC[C@H]([C@H]([C@@H]1OC2(C)C)O3)OC3(C)C)(NCC(CCC)(C)C(CCC)=O)=O
+  MW: 493.62
+  scale: 0.725
+- ID: L026
+  SMILES: O=C1C(CNS(C2=CC=C(C)C=C2)(=O)=O)(C3=CC=C(C)C=C3)CCC1
+  MW: 357.48
+  scale: 1.121
+- ID: L027
+  SMILES: O=C1C(CNS(C2=CC=C(C)C=C2)(=O)=O)(C3=CC=CC=C3C)CCC1
+  MW: 357.48
+  scale: 1.11
+- ID: L028
+  SMILES: O=C1CCCCCCC1(CNS(C2=CC=C(C)C=C2)(=O)=O)C
+  MW: 323.46
+  scale: 1.032
+- ID: L029
+  SMILES: O=C1CCCCCCCCCCCCCCC1(CNS(C2=CC=C(C)C=C2)(=O)=O)C
+  MW: 435.67
+  scale: 0.756
+- ID: L030
+  SMILES: O=C1C(CNS(C2=CC=C(C)C=C2)(=O)=O)(C)COC1
+  MW: 283.35
+  scale: 1.162
+- ID: L031
+  SMILES: O=C1CCC(C)(C)CCC1(CNS(C2=CC=C(C)C=C2)(=O)=O)C
+  MW: 337.49
+  scale: 0.98
+- ID: L032
+  SMILES: O=C1C(CNS(C2=CC=C(C)C=C2)(=O)=O)(C)CN(C(OC(C)(C)C)=O)C1
+  MW: 382.48
+  scale: 0.849
