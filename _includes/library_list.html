@@ -1,0 +1,290 @@
+{% assign category = include.category %}
+
+<div class="lib-header">
+  <div class="lib-count">
+    <span class="lib-count-num" id="mol-showing">—</span>
+    <span class="lib-count-label" id="mol-count-label">loading…</span>
+  </div>
+  <div class="lib-search-wrap">
+    <svg class="lib-search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="8.5" cy="8.5" r="5.5"/>
+      <line x1="13.5" y1="13.5" x2="18" y2="18"/>
+    </svg>
+    <input class="lib-search" id="mol-search" type="text" placeholder="Search by ID, name or MW…" autocomplete="off">
+  </div>
+</div>
+
+<div class="mol-grid" id="mol-grid"></div>
+<div class="mol-pagination" id="mol-pagination"></div>
+<div class="mol-empty" id="mol-empty" style="display:none">
+  <svg viewBox="0 0 24 24" fill="none" stroke="#ccc" stroke-width="1.5" width="48" height="48">
+    <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+  </svg>
+  <p>No compounds match your search.</p>
+</div>
+
+<style>
+.lib-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;gap:16px;flex-wrap:wrap}
+.lib-count{display:flex;align-items:baseline;gap:6px}
+.lib-count-num{font-size:28px;font-weight:700;color:#1e2a3a}
+.lib-count-label{font-size:14px;color:#7f8994}
+.lib-search-wrap{position:relative;flex:1;max-width:340px}
+.lib-search-icon{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:#9aa5b4;pointer-events:none}
+.lib-search{width:100%;padding:9px 14px 9px 36px;border:1px solid #dce3eb;border-radius:10px;font-size:14px;color:#2c3540;background:#f8fafb;outline:none;transition:border-color .2s,box-shadow .2s}
+.lib-search:focus{border-color:#8b9cb6;box-shadow:0 0 0 3px rgba(139,156,182,.15);background:#fff}
+
+.mol-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px;min-height:200px}
+
+.mol-card{background:#fff;border:1px solid #e8edf3;border-radius:14px;padding:14px 12px 12px;display:flex;flex-direction:column;gap:8px;transition:all .2s ease;cursor:default}
+.mol-card:hover{border-color:#8b9cb6;box-shadow:0 6px 20px rgba(44,53,64,.09);transform:translateY(-2px)}
+.mol-img-wrap{height:150px;display:flex;align-items:center;justify-content:center;background:#f7f9fb;border-radius:8px;overflow:hidden;position:relative}
+.mol-img-wrap img{max-width:100%;max-height:144px;object-fit:contain}
+.mol-img-wrap svg.rdkit-svg{width:100%;height:100%;display:block}
+.mol-img-fallback{width:100%;height:100%;display:flex;align-items:center;justify-content:center;opacity:.25}
+
+.mol-name{font-size:12px;font-weight:600;color:#2c3540;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mol-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.mol-id{font-size:12px;font-weight:700;color:#3d5a80;flex-shrink:0}
+.mol-mw{font-size:11px;background:#eef2f7;color:#5a6471;padding:2px 7px;border-radius:20px;white-space:nowrap;font-weight:500}
+.mol-subcat{font-size:10px;background:#f0f4ff;color:#4a6fa5;padding:2px 7px;border-radius:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:120px}
+
+.mol-smiles-wrap{position:relative}
+.mol-smiles-toggle{background:none;border:none;cursor:pointer;color:#9aa5b4;padding:1px 0;display:flex;align-items:center;gap:3px;font-size:11px;transition:color .2s}
+.mol-smiles-toggle:hover{color:#5a6471}
+.mol-smiles-box{position:absolute;bottom:calc(100% + 6px);left:0;right:0;background:#1e2a3a;color:#c8d8ea;font-size:10px;font-family:'SFMono-Regular',Consolas,monospace;padding:8px 10px;border-radius:8px;word-break:break-all;line-height:1.5;z-index:100;box-shadow:0 4px 16px rgba(0,0,0,.25);display:none}
+.mol-smiles-box::after{content:'';position:absolute;top:100%;left:10px;border:5px solid transparent;border-top-color:#1e2a3a}
+
+/* skeleton */
+.mol-skeleton{background:#fff;border:1px solid #e8edf3;border-radius:14px;padding:14px 12px 12px;display:flex;flex-direction:column;gap:8px}
+.skel{background:linear-gradient(90deg,#f0f3f7 25%,#e4e8ed 50%,#f0f3f7 75%);background-size:200% 100%;animation:shimmer 1.4s infinite;border-radius:6px}
+.skel-img{height:150px;border-radius:8px}
+.skel-line{height:13px}.skel-short{height:12px;width:60%}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+
+/* pagination */
+.mol-pagination{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:36px;flex-wrap:wrap}
+.mol-page-btn{min-width:36px;height:36px;padding:0 12px;border:1px solid #dce3eb;border-radius:8px;background:#fff;color:#4a5568;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center}
+.mol-page-btn:hover{border-color:#8b9cb6;color:#2c3540;background:#f5f7fa}
+.mol-page-btn.active{background:#2c3540;color:#fff;border-color:#2c3540}
+.mol-page-btn:disabled{opacity:.35;cursor:default;pointer-events:none}
+.mol-page-info{font-size:13px;color:#7f8994;padding:0 6px}
+
+.mol-empty{text-align:center;padding:60px 20px;color:#9aa5b4}
+.mol-empty p{margin-top:12px;font-size:15px}
+
+@media(max-width:600px){.mol-grid{grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:10px}.mol-img-wrap{height:120px}}
+</style>
+
+<script>
+(function(){
+  const CATEGORY  = '{{ category }}';
+  const DATA_URL  = '/assets/data/compounds_' + CATEGORY + '.json';
+  const PAGE_SIZE = 60;
+  // Scaffold compounds have pre-generated SVG files; others need RDKit rendering
+  const HAS_SVG_FILES = (CATEGORY === 'scaffold');
+
+  const grid      = document.getElementById('mol-grid');
+  const paginEl   = document.getElementById('mol-pagination');
+  const searchEl  = document.getElementById('mol-search');
+  const emptyEl   = document.getElementById('mol-empty');
+  const showingEl = document.getElementById('mol-showing');
+  const labelEl   = document.getElementById('mol-count-label');
+
+  let allData = [], filtered = [], currentPage = 1;
+  let RDKit   = null;
+
+  // ── Load RDKit.js ────────────────────────────────────
+  function ensureRDKit() {
+    if (RDKit) return Promise.resolve(RDKit);
+    if (window._rdkitPromise) return window._rdkitPromise;
+    window._rdkitPromise = new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      script.src = 'https://unpkg.com/@rdkit/rdkit/Code/MinimalLib/dist/RDKit_minimal.js';
+      script.crossOrigin = 'anonymous';
+      script.onload = () => {
+        window.initRDKitModule().then(rdk => {
+          RDKit = rdk;
+          resolve(rdk);
+        }).catch(reject);
+      };
+      script.onerror = reject;
+      document.head.appendChild(script);
+    });
+    return window._rdkitPromise;
+  }
+
+  function renderSmilesToSvg(smiles) {
+    if (!RDKit || !smiles) return null;
+    try {
+      const mol = RDKit.get_mol(smiles);
+      if (!mol) return null;
+      const svg = mol.get_svg(180, 150);
+      mol.delete();
+      return svg;
+    } catch(e) { return null; }
+  }
+
+  // ── Card HTML builder ────────────────────────────────
+  function cardHtml(mol) {
+    const imgBlock = HAS_SVG_FILES
+      ? `<img src="/assets/images/compounds/${escHtml(mol.ID)}.svg" alt="${escHtml(mol.ID)}" loading="lazy"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+      : `<div class="rdkit-placeholder" data-smiles="${escHtml(mol.SMILES)}"></div>`;
+
+    const fallback = `<div class="mol-img-fallback" style="display:none">
+      <svg viewBox="0 0 60 40" fill="none" stroke="#bbb" stroke-width="1.5"><rect x="4" y="4" width="52" height="32" rx="4" stroke-dasharray="4 2"/><circle cx="30" cy="20" r="7"/><line x1="22" y1="20" x2="14" y2="20"/><line x1="38" y1="20" x2="46" y2="20"/></svg>
+    </div>`;
+
+    const nameRow  = mol.name    ? `<div class="mol-name">${escHtml(mol.name)}</div>` : '';
+    const subcatBadge = mol.subcategory ? `<span class="mol-subcat">${escHtml(mol.subcategory)}</span>` : '';
+    const mwBadge  = mol.MW      ? `<span class="mol-mw">MW ${mol.MW}</span>` : '';
+    const smiles   = mol.SMILES  ? `
+      <div class="mol-smiles-wrap">
+        <button class="mol-smiles-toggle" onclick="toggleSmilesBtn(this)">
+          <svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M2 4h12v1.5H2V4zm0 3.5h8V9H2V7.5zm0 3.5h10v1.5H2V11z"/></svg>
+          SMILES
+        </button>
+        <div class="mol-smiles-box">${escHtml(mol.SMILES)}</div>
+      </div>` : '';
+
+    return `<div class="mol-card">
+      <div class="mol-img-wrap">${imgBlock}${fallback}</div>
+      ${nameRow}
+      <div class="mol-row"><span class="mol-id">${escHtml(mol.ID)}</span>${mwBadge}</div>
+      ${subcatBadge ? `<div>${subcatBadge}</div>` : ''}
+      ${smiles}
+    </div>`;
+  }
+
+  // ── Render page ──────────────────────────────────────
+  function renderPage(page) {
+    currentPage = page;
+    const start = (page - 1) * PAGE_SIZE;
+    const items = filtered.slice(start, start + PAGE_SIZE);
+
+    if (filtered.length === 0) {
+      grid.innerHTML = '';
+      emptyEl.style.display = 'block';
+      paginEl.innerHTML = '';
+      showingEl.textContent = '0';
+      labelEl.textContent   = 'compounds';
+      return;
+    }
+    emptyEl.style.display = 'none';
+    grid.innerHTML = items.map(cardHtml).join('');
+
+    // Render structures for non-scaffold libraries
+    if (!HAS_SVG_FILES) {
+      ensureRDKit().then(() => {
+        grid.querySelectorAll('.rdkit-placeholder').forEach(ph => {
+          const smiles = ph.dataset.smiles;
+          const svg = renderSmilesToSvg(smiles);
+          if (svg) {
+            ph.outerHTML = svg.replace('<svg ', '<svg class="rdkit-svg" ');
+          } else {
+            // show fallback
+            const wrap = ph.closest('.mol-img-wrap');
+            if (wrap) {
+              ph.remove();
+              const fb = wrap.querySelector('.mol-img-fallback');
+              if (fb) fb.style.display = 'flex';
+            }
+          }
+        });
+      }).catch(() => {
+        // RDKit failed — show fallbacks
+        grid.querySelectorAll('.rdkit-placeholder').forEach(ph => {
+          const wrap = ph.closest('.mol-img-wrap');
+          if (wrap) {
+            ph.remove();
+            const fb = wrap.querySelector('.mol-img-fallback');
+            if (fb) fb.style.display = 'flex';
+          }
+        });
+      });
+    }
+
+    renderPagination();
+    const end = Math.min(start + PAGE_SIZE, filtered.length);
+    showingEl.textContent = `${(start + 1).toLocaleString()}–${end.toLocaleString()}`;
+    labelEl.textContent   = `of ${filtered.length.toLocaleString()} compounds`;
+  }
+
+  function renderPagination() {
+    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+    if (totalPages <= 1) { paginEl.innerHTML = ''; return; }
+    const p = currentPage;
+    let html = `<button class="mol-page-btn" ${p===1?'disabled':''} onclick="molGo(${p-1})">‹ Prev</button>`;
+    const pages = new Set([1, totalPages, p-1, p, p+1].filter(x => x>=1 && x<=totalPages));
+    let prev = 0;
+    for (const pg of [...pages].sort((a,b)=>a-b)) {
+      if (pg - prev > 1) html += `<span class="mol-page-info">…</span>`;
+      html += `<button class="mol-page-btn ${pg===p?'active':''}" onclick="molGo(${pg})">${pg}</button>`;
+      prev = pg;
+    }
+    html += `<button class="mol-page-btn" ${p===totalPages?'disabled':''} onclick="molGo(${p+1})">Next ›</button>`;
+    html += `<span class="mol-page-info">${totalPages.toLocaleString()} pages</span>`;
+    paginEl.innerHTML = html;
+  }
+
+  // ── Search ───────────────────────────────────────────
+  let searchTimer;
+  searchEl.addEventListener('input', () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      const q = searchEl.value.toLowerCase().trim();
+      filtered = q
+        ? allData.filter(m =>
+            (m.ID          && String(m.ID).toLowerCase().includes(q)) ||
+            (m.name        && m.name.toLowerCase().includes(q))       ||
+            (m.subcategory && m.subcategory.toLowerCase().includes(q))||
+            (m.MW          && String(m.MW).includes(q)))
+        : allData;
+      renderPage(1);
+      window.scrollTo({top: grid.offsetTop - 140, behavior: 'smooth'});
+    }, 300);
+  });
+
+  // ── Skeleton ─────────────────────────────────────────
+  grid.innerHTML = Array.from({length: 12}, () =>
+    `<div class="mol-skeleton"><div class="skel skel-img"></div><div class="skel skel-line"></div><div class="skel skel-short"></div></div>`
+  ).join('');
+
+  // ── Fetch data ───────────────────────────────────────
+  fetch(DATA_URL)
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(data => {
+      allData = filtered = data;
+      renderPage(1);
+      // Pre-load RDKit in background for non-scaffold libs
+      if (!HAS_SVG_FILES) ensureRDKit().catch(() => {});
+    })
+    .catch(() => {
+      grid.innerHTML = `<div style="grid-column:1/-1;text-align:center;padding:60px 20px;color:#9aa5b4">
+        <p style="font-size:15px">Dataset not yet available.</p>
+        <small style="font-size:13px;color:#b8c4d0">Add the Excel file and run prepare_chemlib.py</small>
+      </div>`;
+      showingEl.textContent = '0';
+      labelEl.textContent = 'compounds';
+    });
+
+  window.molGo = function(page) {
+    renderPage(page);
+    window.scrollTo({top: grid.offsetTop - 140, behavior: 'smooth'});
+  };
+})();
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function toggleSmilesBtn(btn) {
+  const box = btn.nextElementSibling;
+  const shown = box.style.display === 'block';
+  document.querySelectorAll('.mol-smiles-box').forEach(e => e.style.display = 'none');
+  if (!shown) box.style.display = 'block';
+}
+document.addEventListener('click', e => {
+  if (!e.target.closest('.mol-smiles-wrap'))
+    document.querySelectorAll('.mol-smiles-box').forEach(e => e.style.display = 'none');
+});
+</script>
