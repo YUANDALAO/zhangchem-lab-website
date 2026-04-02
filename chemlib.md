@@ -12,7 +12,7 @@ nav_order: 4
     <p class="chemlib-subtitle">Curated collections of bioactive small molecules for drug discovery and chemical biology research</p>
     <div class="chemlib-stats">
       <div class="stat-item">
-        <span class="stat-number">726+</span>
+        <span class="stat-number">58,000+</span>
         <span class="stat-label">Compounds</span>
       </div>
       <div class="stat-divider"></div>
