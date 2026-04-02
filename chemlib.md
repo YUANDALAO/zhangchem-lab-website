@@ -39,11 +39,11 @@ nav_order: 4
     </div>
     <div class="library-card-body">
       <div class="library-card-tag">Library 01</div>
-      <h2 class="library-card-title">Active Compound Library</h2>
-      <p class="library-card-desc">Screened and validated bioactive compounds with confirmed target activity. Ideal starting points for hit-to-lead optimization.</p>
+      <h2 class="library-card-title">SmartTM Library</h2>
+      <p class="library-card-desc">Smart Targeted Molecular library — a curated collection of bioactive small molecules with confirmed activity across diverse therapeutic targets.</p>
       <div class="library-card-meta">
-        <span class="meta-tag">Hit compounds</span>
-        <span class="meta-tag">Validated activity</span>
+        <span class="meta-tag">Smart Targeted Molecular</span>
+        <span class="meta-tag">Diverse targets</span>
       </div>
     </div>
     <div class="library-card-arrow">Browse →</div>
@@ -58,7 +58,7 @@ nav_order: 4
     </div>
     <div class="library-card-body">
       <div class="library-card-tag">Library 02</div>
-      <h2 class="library-card-title">Natural Product Library</h2>
+      <h2 class="library-card-title">Nature Compounds</h2>
       <p class="library-card-desc">Plant, microbial, and marine-derived natural products and semi-synthetic derivatives with broad chemical diversity.</p>
       <div class="library-card-meta">
         <span class="meta-tag">Natural origin</span>
@@ -95,11 +95,11 @@ nav_order: 4
     </div>
     <div class="library-card-body">
       <div class="library-card-tag">Library 04</div>
-      <h2 class="library-card-title">Drug‑Like Library</h2>
-      <p class="library-card-desc">High-diversity small molecules satisfying Lipinski's Rule of Five. Optimized for oral bioavailability and drug-like properties.</p>
+      <h2 class="library-card-title">Approved Drug Library</h2>
+      <p class="library-card-desc">FDA and globally approved drugs spanning diverse disease indications — ideal for drug repurposing and mechanistic studies.</p>
       <div class="library-card-meta">
-        <span class="meta-tag">Lipinski compliant</span>
-        <span class="meta-tag">High diversity</span>
+        <span class="meta-tag">FDA approved</span>
+        <span class="meta-tag">Drug repurposing</span>
       </div>
     </div>
     <div class="library-card-arrow">Browse →</div>

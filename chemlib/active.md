@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Active Compound Library
+title: SmartTM Library
 permalink: /chemlib/active/
 ---
 
@@ -16,12 +16,12 @@ permalink: /chemlib/active/
     </div>
     <div>
       <div class="lib-page-tag">Library 01</div>
-      <h1 class="lib-page-title">Active Compound Library</h1>
-      <p class="lib-page-desc">Screened and validated bioactive compounds with confirmed target activity. Each compound has been experimentally tested and confirmed for activity against one or more biological targets — ideal starting points for hit-to-lead optimization.</p>
+      <h1 class="lib-page-title">SmartTM Library</h1>
+      <p class="lib-page-desc">Smart Targeted Molecular library — a curated collection of bioactive small molecules with confirmed activity across diverse therapeutic targets including antiviral, anti-inflammatory, anticancer, and more.</p>
       <div class="lib-page-tags">
-        <span>Hit compounds</span>
-        <span>Validated activity</span>
-        <span>Biological targets</span>
+        <span>Smart Targeted Molecular</span>
+        <span>Diverse targets</span>
+        <span>Antiviral &amp; anticancer</span>
       </div>
     </div>
   </div>

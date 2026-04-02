@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Drug-Like Library
+title: Approved Drug Library
 permalink: /chemlib/druglike/
 ---
 
@@ -16,12 +16,12 @@ permalink: /chemlib/druglike/
     </div>
     <div>
       <div class="lib-page-tag">Library 04</div>
-      <h1 class="lib-page-title">Drug‑Like Library</h1>
-      <p class="lib-page-desc">High-diversity small molecules satisfying Lipinski's Rule of Five and optimized for oral bioavailability. This collection is designed for broad phenotypic screening and target-based drug discovery with favorable ADMET properties.</p>
+      <h1 class="lib-page-title">Approved Drug Library</h1>
+      <p class="lib-page-desc">FDA and globally approved drugs spanning diverse disease indications. This collection enables drug repurposing studies, mechanistic research, and target identification using clinically validated compounds.</p>
       <div class="lib-page-tags">
-        <span>Lipinski compliant</span>
-        <span>High diversity</span>
-        <span>ADMET optimized</span>
+        <span>FDA approved</span>
+        <span>Drug repurposing</span>
+        <span>Clinical indications</span>
       </div>
     </div>
   </div>

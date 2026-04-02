@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Natural Product Library
+title: Nature Compounds
 permalink: /chemlib/natural/
 ---
 
@@ -17,7 +17,7 @@ permalink: /chemlib/natural/
     </div>
     <div>
       <div class="lib-page-tag">Library 02</div>
-      <h1 class="lib-page-title">Natural Product Library</h1>
+      <h1 class="lib-page-title">Nature Compounds</h1>
       <p class="lib-page-desc">Plant, microbial, and marine-derived natural products and semi-synthetic derivatives. This collection captures the remarkable chemical diversity of nature, offering unique scaffolds and pharmacophores rarely found in synthetic libraries.</p>
       <div class="lib-page-tags">
         <span>Natural origin</span>
