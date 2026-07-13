@@ -10,6 +10,7 @@ from rdkit.Chem import AllChem, Draw
 from rdkit.Chem.Draw import rdMolDraw2D
 import yaml
 import os
+import argparse
 
 # 配置
 OUTPUT_DIR = 'assets/images/compounds'
@@ -70,7 +71,7 @@ def generate_clean_svg(mol_id, smiles, output_dir):
         # 字体大小
         opts.minFontSize = DRAW_OPTIONS['minFontSize']
         opts.maxFontSize = DRAW_OPTIONS['maxFontSize']
-        opts.atomLabelFontSize = DRAW_OPTIONS['atomLabelFontSize']
+        opts.baseFontSize = DRAW_OPTIONS['atomLabelFontSize']
         
         # 内边距
         opts.padding = DRAW_OPTIONS['padding']
@@ -80,7 +81,7 @@ def generate_clean_svg(mol_id, smiles, output_dir):
         opts.useBWAtomPalette()  # RDKit内置的黑白调色板
         
         # 设置背景为白色
-        drawer.SetBackgroundColour(WHITE)
+        opts.setBackgroundColour(WHITE)
         
         # 绘制分子
         drawer.DrawMolecule(mol)
@@ -102,6 +103,10 @@ def generate_clean_svg(mol_id, smiles, output_dir):
         return False
 
 def main():
+    parser = argparse.ArgumentParser(description='生成分子结构 SVG')
+    parser.add_argument('--category', default=None, help='仅生成指定类别的分子 (如 scaffold)')
+    args = parser.parse_args()
+
     print('='*60)
     print('🔬 终极分子结构生成器')
     print('='*60)
@@ -113,7 +118,11 @@ def main():
         print('请确保 _data/molecules.yml 存在并包含数据')
         return
     
-    print(f'\n📊 找到 {len(molecules)} 个分子')
+    if args.category:
+        molecules = [m for m in molecules if m.get('Category') == args.category]
+        print(f'\n📊 找到 {len(molecules)} 个 {args.category} 分子')
+    else:
+        print(f'\n📊 找到 {len(molecules)} 个分子')
     print(f'📐 键长: {DRAW_OPTIONS["fixedBondLength"]}px (统一)')
     print(f'🖊️  线宽: {DRAW_OPTIONS["bondLineWidth"]}px (细线条)')
     print(f'🎨 配色: 黑白 (无彩色)\n')
