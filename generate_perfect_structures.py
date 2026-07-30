@@ -43,61 +43,62 @@ def load_molecules():
     
     return molecules if molecules else []
 
+def draw_molecule(mol_id, mol, output_dir, note=''):
+    """绘制分子并保存SVG"""
+    AllChem.Compute2DCoords(mol)
+
+    drawer = rdMolDraw2D.MolDraw2DSVG(IMAGE_SIZE, IMAGE_SIZE)
+    opts = drawer.drawOptions()
+    opts.fixedBondLength = DRAW_OPTIONS['fixedBondLength']
+    opts.fixedScale = DRAW_OPTIONS['fixedBondLength']
+    opts.bondLineWidth = DRAW_OPTIONS['bondLineWidth']
+    opts.minFontSize = DRAW_OPTIONS['minFontSize']
+    opts.maxFontSize = DRAW_OPTIONS['maxFontSize']
+    opts.baseFontSize = DRAW_OPTIONS['atomLabelFontSize']
+    opts.padding = DRAW_OPTIONS['padding']
+    opts.additionalAtomLabelPadding = DRAW_OPTIONS['additionalAtomLabelPadding']
+    opts.useBWAtomPalette()
+    opts.setBackgroundColour(WHITE)
+
+    drawer.DrawMolecule(mol)
+    drawer.FinishDrawing()
+
+    svg = drawer.GetDrawingText()
+    svg_path = os.path.join(output_dir, f'{mol_id}.svg')
+    with open(svg_path, 'w', encoding='utf-8') as f:
+        f.write(svg)
+
+    print(f'✓ {mol_id}{note}')
+    return True
+
+
 def generate_clean_svg(mol_id, smiles, output_dir):
-    """生成统一键长的黑白SVG"""
+    """生成统一键长的黑白SVG，尝试多种兼容性修复"""
     try:
-        # 解析SMILES
+        # 1. 标准解析
         mol = Chem.MolFromSmiles(smiles)
-        if mol is None:
-            print(f'❌ {mol_id}: 无效的SMILES')
-            return False
-        
-        # 生成2D坐标
-        AllChem.Compute2DCoords(mol)
-        
-        # 创建SVG绘图器
-        drawer = rdMolDraw2D.MolDraw2DSVG(IMAGE_SIZE, IMAGE_SIZE)
-        
-        # 设置绘图选项
-        opts = drawer.drawOptions()
-        
-        # 关键：固定键长
-        opts.fixedBondLength = DRAW_OPTIONS['fixedBondLength']
-        opts.fixedScale = DRAW_OPTIONS['fixedBondLength']
-        
-        # 线条样式
-        opts.bondLineWidth = DRAW_OPTIONS['bondLineWidth']
-        
-        # 字体大小
-        opts.minFontSize = DRAW_OPTIONS['minFontSize']
-        opts.maxFontSize = DRAW_OPTIONS['maxFontSize']
-        opts.baseFontSize = DRAW_OPTIONS['atomLabelFontSize']
-        
-        # 内边距
-        opts.padding = DRAW_OPTIONS['padding']
-        opts.additionalAtomLabelPadding = DRAW_OPTIONS['additionalAtomLabelPadding']
-        
-        # 关键：使用黑白配色
-        opts.useBWAtomPalette()  # RDKit内置的黑白调色板
-        
-        # 设置背景为白色
-        opts.setBackgroundColour(WHITE)
-        
-        # 绘制分子
-        drawer.DrawMolecule(mol)
-        drawer.FinishDrawing()
-        
-        # 获取SVG
-        svg = drawer.GetDrawingText()
-        
-        # 保存SVG
-        svg_path = os.path.join(output_dir, f'{mol_id}.svg')
-        with open(svg_path, 'w', encoding='utf-8') as f:
-            f.write(svg)
-        
-        print(f'✓ {mol_id}')
-        return True
-        
+        if mol is not None:
+            return draw_molecule(mol_id, mol, output_dir)
+
+        # 2. 修复 [CD3]（氘代甲基）为非标准 SMILES
+        if '[CD3]' in smiles:
+            fixed = smiles.replace('[CD3]', '[CH3]')
+            mol = Chem.MolFromSmiles(fixed)
+            if mol is not None:
+                return draw_molecule(mol_id, mol, output_dir, note=' (CD3→CH3)')
+
+        # 3. 对含金属有机物等复杂结构禁用 sanitization 后绘制
+        #    常见过渡金属：Rh, Ir, Pd, Pt, Ru, Os, Re, Au, Ag 等
+        metal_pattern = ['[Rh]', '[Ir]', '[Pd]', '[Pt]', '[Ru]', '[Os]', '[Re]', '[Au]', '[Ag]']
+        if any(m in smiles for m in metal_pattern):
+            mol = Chem.MolFromSmiles(smiles, sanitize=False)
+            if mol is not None:
+                mol.UpdatePropertyCache()
+                return draw_molecule(mol_id, mol, output_dir, note=' (unsanitized)')
+
+        print(f'❌ {mol_id}: 无效的SMILES')
+        return False
+
     except Exception as e:
         print(f'❌ {mol_id}: {str(e)}')
         return False
