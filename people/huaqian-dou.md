@@ -6,6 +6,9 @@ title: "Huaqian Dou"
 ### Education
 
 **Guangzhou Medical University**
+Ph.D. in Pharmacy (2026 – Present)
+
+**Guangzhou Medical University**
 M.Sc. in Pharmacy (2023 – 2026)
 
 **Guangzhou Medical University**
