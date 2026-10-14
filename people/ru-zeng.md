@@ -5,8 +5,11 @@ title: "Ru Zeng"
 
 ### Academic Experience
 
+**Sun Yat-sen University**  
+PhD Student in Pharmaceutical Sciences and Chemistry (2026 – Present)  
+
 **Guangzhou Medical University**  
-Research Assistant in Pharmaceutical Sciences and Chemistry (2024 – Present)  
+Research Assistant in Pharmaceutical Sciences and Chemistry (2024 – 2026)  
 
 
 ### Education
